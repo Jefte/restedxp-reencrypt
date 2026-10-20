@@ -178,7 +178,7 @@ export function decryptGuideFile(
   const S = rc4Ksa(key16);
 
   const chunks = [...raw.matchAll(/(-?\d+)(\D)([A-Za-z0-9+/=]+)%/g)];
-  const allGuides: string[] = [];
+  const plaintextChunks: string[] = [];
 
   for (const [, , mode, content] of chunks) {
     if (mode.charCodeAt(0) === 58) {
@@ -189,13 +189,16 @@ export function decryptGuideFile(
       const text = new TextDecoder("utf-8", { fatal: false }).decode(
         decompressed,
       );
-      const guides = text.split("\x00").filter((g) => g.trim());
-      allGuides.push(...guides);
+      plaintextChunks.push(text);
     }
   }
 
-  const plaintext = allGuides.join("\x00");
-  return { plaintext, version, guideCount: allGuides.length };
+  const plaintext = plaintextChunks.join("\x00");
+  const parsedGuideCount = plaintext
+    .split("\x00")
+    .filter((guide) => guide.trim()).length;
+
+  return { plaintext, version, guideCount: parsedGuideCount };
 }
 
 /** Encrypt plaintext guides for a BattleTag. */
@@ -205,7 +208,10 @@ export function encryptForBattletag(
   version: number,
 ): string {
   const data = new TextEncoder().encode(plaintext);
-  const nGuides = new TextDecoder().decode(data).split("\x00").length;
+  const nGuides = new TextDecoder()
+    .decode(data)
+    .split("\x00")
+    .filter((guide) => guide.trim()).length;
 
   const checksum = adler32(data);
 
