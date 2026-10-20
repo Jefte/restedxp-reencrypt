@@ -11,6 +11,17 @@ export interface GuideConfig {
 
 export const GUIDES: GuideConfig[] = [
   {
+    id: "classic",
+    title: "Classic Era Speedrun Guide — Both Factions",
+    expansion: "Classic Era",
+    description:
+      "Classic Era speedrun routes for both factions; starter routes are included with the base addon.",
+    levels: "1-60",
+    image: "/bg-leather.jpg",
+    guideUrl: "/guide_classic_player_1234.txt",
+    sourceTag: "player#1234",
+  },
+  {
     id: "forever",
     title: "Forever Leveling Guide — Both Factions",
     expansion: "WoW Forever",

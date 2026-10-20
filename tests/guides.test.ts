@@ -12,3 +12,13 @@ test("catalog includes the WoW Forever both-factions guide", () => {
   assert.equal(forever.guideUrl, "/guide_forever_player_1234.txt");
   assert.equal(forever.sourceTag, "player#1234");
 });
+
+test("catalog includes the Classic Era both-factions guide", () => {
+  const classic = GUIDES.find((guide) => guide.id === "classic");
+
+  assert.ok(classic);
+  assert.equal(classic.expansion, "Classic Era");
+  assert.equal(classic.levels, "1-60");
+  assert.equal(classic.guideUrl, "/guide_classic_player_1234.txt");
+  assert.equal(classic.sourceTag, "player#1234");
+});
