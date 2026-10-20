@@ -22,6 +22,17 @@ export const GUIDES: GuideConfig[] = [
     sourceTag: "player#1234",
   },
   {
+    id: "classic-hardcore",
+    title: "Classic Hardcore Survival Guide — Both Factions",
+    expansion: "Classic Hardcore",
+    description:
+      "Hardcore-safe Classic leveling routes for Alliance and Horde.",
+    levels: "1-60",
+    image: "/bg-leather.jpg",
+    guideUrl: "/guide_classic_hardcore_player_1234.txt",
+    sourceTag: "player#1234",
+  },
+  {
     id: "forever",
     title: "Forever Leveling Guide — Both Factions",
     expansion: "WoW Forever",
@@ -43,6 +54,17 @@ export const GUIDES: GuideConfig[] = [
     sourceTag: "player#1234",
   },
   {
+    id: "mop",
+    title: "Mists of Pandaria Guide — Both Factions",
+    expansion: "Mists of Pandaria",
+    description:
+      "Complete MoP leveling, preparation, reputation, and Pandaria routes for both factions.",
+    levels: "1-90",
+    image: "/bg-leather.jpg",
+    guideUrl: "/guide_mop_player_1234.txt",
+    sourceTag: "player#1234",
+  },
+  {
     id: "tbc",
     title: "TBC Speedrun Guide",
     expansion: "The Burning Crusade",
@@ -50,6 +72,17 @@ export const GUIDES: GuideConfig[] = [
     levels: "1-70",
     image: "/bg-tbc.jpg",
     guideUrl: "/guide_tbc_player_1234.txt",
+    sourceTag: "player#1234",
+  },
+  {
+    id: "tbc-hardcore",
+    title: "TBC Hardcore Survival Guide — Both Factions",
+    expansion: "The Burning Crusade Hardcore",
+    description:
+      "Hardcore-safe TBC leveling routes and attunement guides for Alliance and Horde.",
+    levels: "1-70",
+    image: "/bg-tbc.jpg",
+    guideUrl: "/guide_tbc_hardcore_player_1234.txt",
     sourceTag: "player#1234",
   },
   {
