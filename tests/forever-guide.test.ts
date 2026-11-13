@@ -5,7 +5,7 @@ import test from "node:test";
 
 import { decryptGuideFile } from "../lib/rxp-crypto";
 
-test("bundled Forever export preserves the v4.11.36 addon guide set", () => {
+test("bundled Forever export preserves v4.11.36 guides with visible Zephras overrides", () => {
   const raw = fs.readFileSync("public/guide_forever_player_1234.txt", "utf8");
   const result = decryptGuideFile(raw, "player#1234");
   const guides = result.plaintext.split("\x00").filter((guide) => guide.trim());
@@ -15,6 +15,9 @@ test("bundled Forever export preserves the v4.11.36 addon guide set", () => {
       const match = header.match(/^#name\s+(.+)$/m);
       return match ? [match[1].trim()] : [];
     }),
+  );
+  const versions = headers.map(
+    (header) => header.match(/^#version\s+(.+)$/m)?.[1].trim() ?? "none",
   );
   const groups = new Set(
     guides.flatMap((guide) =>
@@ -26,13 +29,27 @@ test("bundled Forever export preserves the v4.11.36 addon guide set", () => {
   assert.equal(result.guideCount, 204);
   assert.equal(
     crypto.createHash("sha256").update(result.plaintext).digest("hex"),
-    "7adba87de3472a3e438879b0e7fe98b4bb236ff9f7e5f9840f18dc0592a20190",
+    "cc495c04add3bf74788aa2914ccfcb321d661f168c8b5924e76dcbad9003fec6",
   );
   assert.equal(headers.filter((header) => /^#forever$/m.test(header)).length, 204);
+  assert.equal(versions.filter((version) => version === "24").length, 198);
+  assert.equal(versions.filter((version) => version === "2").length, 2);
+  assert.equal(versions.filter((version) => version === "1").length, 4);
   assert.equal(guides.filter((guide) => /<<\s*Alliance/m.test(guide)).length, 108);
   assert.equal(guides.filter((guide) => /<<\s*Horde/m.test(guide)).length, 98);
-  assert.ok(names.has("1-9 Zephras Isle"));
-  assert.ok(names.has("9-13 Zephras Isle"));
+  assert.ok(names.has("1-9 Zephras Isle (Unlocked)"));
+  assert.ok(names.has("9-13 Zephras Isle (Unlocked)"));
+  assert.equal(
+    headers.filter(
+      (header) => /Zephras Isle/.test(header) && /^#defaultfor\s+Skyborne$/m.test(header),
+    ).length,
+    0,
+  );
+  assert.equal(
+    headers.filter((header) => /^#displayname\s+.+Zephras Isle \(Skyborne\)/m.test(header))
+      .length,
+    2,
+  );
   assert.deepEqual([...groups].sort(), [
     "RXP Forever Dungeon Quests (A)",
     "RestedXP Alliance Mage",
