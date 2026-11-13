@@ -87,7 +87,7 @@ export function FreeKeyModal() {
     setProcessing(guide.id);
 
     try {
-      const res = await fetch(guide.guideUrl);
+      const res = await fetch(guide.guideUrl, { cache: "no-store" });
       if (!res.ok) throw new Error(`Failed to load ${guide.title}.`);
       const raw = await res.text();
 
