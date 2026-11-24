@@ -166,39 +166,48 @@ export interface DecryptResult {
   guideCount: number;
 }
 
-/** Decrypt an RXPGuides export file. */
+/** Decrypt and fully validate a single-chunk RXPGuides export envelope. */
 export function decryptGuideFile(
   raw: string,
   battletag: string,
 ): DecryptResult {
-  const versionMatch = raw.match(/\|(\d+)$/);
-  const version = versionMatch ? parseInt(versionMatch[1], 10) : 40000;
+  const envelope = raw.match(/^(\d+)\|(-?\d+):([A-Za-z0-9+/]+={0,2})%\|(\d+)$/);
+  if (!envelope) throw new Error("Invalid RXPGuides export envelope");
+
+  const declaredCount = Number(envelope[1]);
+  const declaredChecksum = Number(envelope[2]) >>> 0;
+  const content = envelope[3];
+  const version = Number(envelope[4]);
+  if (!Number.isSafeInteger(declaredCount) || !Number.isSafeInteger(version)) {
+    throw new Error("Invalid numeric field in RXPGuides export envelope");
+  }
 
   const key16 = deriveKey(battletag);
   const S = rc4Ksa(key16);
-
-  const chunks = [...raw.matchAll(/(-?\d+)(\D)([A-Za-z0-9+/=]+)%/g)];
-  const plaintextChunks: string[] = [];
-
-  for (const [, , mode, content] of chunks) {
-    if (mode.charCodeAt(0) === 58) {
-      // ':'
-      const decoded = base64ToUint8(content);
-      const decrypted = rc4Crypt(S, decoded);
-      const decompressed = pako.inflate(decrypted);
-      const text = new TextDecoder("utf-8", { fatal: false }).decode(
-        decompressed,
-      );
-      plaintextChunks.push(text);
-    }
+  let decompressed: Uint8Array;
+  try {
+    const decoded = base64ToUint8(content);
+    const decrypted = rc4Crypt(S, decoded);
+    decompressed = pako.inflate(decrypted);
+  } catch (error) {
+    throw new Error("Unable to decrypt or inflate RXPGuides export", { cause: error });
+  }
+  if (adler32(decompressed) !== declaredChecksum) {
+    throw new Error("RXPGuides plaintext checksum mismatch");
   }
 
-  const plaintext = plaintextChunks.join("\x00");
-  const parsedGuideCount = plaintext
-    .split("\x00")
-    .filter((guide) => guide.trim()).length;
+  let plaintext: string;
+  try {
+    plaintext = new TextDecoder("utf-8", { fatal: true }).decode(decompressed);
+  } catch (error) {
+    throw new Error("RXPGuides plaintext is not valid UTF-8", { cause: error });
+  }
+  const guideCount = plaintext.split("\x00").filter((guide) => guide.trim()).length;
+  if (guideCount !== declaredCount) {
+    throw new Error(`RXPGuides guide count mismatch: declared ${declaredCount}, actual ${guideCount}`);
+  }
 
-  return { plaintext, version, guideCount: parsedGuideCount };
+  return { plaintext, version, guideCount };
 }
 
 /** Encrypt plaintext guides for a BattleTag. */

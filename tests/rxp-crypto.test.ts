@@ -18,13 +18,21 @@ test("Forever payloads preserve their leading NUL and guide count", () => {
   assert.equal(decrypted.plaintext, plaintext);
 });
 
-test("guide count comes from decrypted guides instead of an untrusted header", () => {
+test("rejects an envelope whose declared guide count is tampered", () => {
   const plaintext =
     "#forever\n#name First\n\x00#forever\n#name Second\n";
   const encrypted = encryptForBattletag(plaintext, TAG, 40000);
   const tamperedHeader = encrypted.replace(/^2\|/, "1|");
 
-  const decrypted = decryptGuideFile(tamperedHeader, TAG);
+  assert.throws(() => decryptGuideFile(tamperedHeader, TAG), /guide count/i);
+});
 
-  assert.equal(decrypted.guideCount, 2);
+test("rejects checksum tampering, malformed grammar, and trailing garbage", () => {
+  const encrypted = encryptForBattletag("#name One\nstep\n", TAG, 40000);
+  assert.throws(
+    () => decryptGuideFile(encrypted.replace(/^1\|(-?\d+)/, "1|0"), TAG),
+    /checksum/i,
+  );
+  assert.throws(() => decryptGuideFile(`${encrypted}junk`, TAG), /envelope/i);
+  assert.throws(() => decryptGuideFile(encrypted.replace(":", ";"), TAG), /envelope/i);
 });

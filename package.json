@@ -7,7 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "tsx --test tests/*.test.ts"
+    "test": "tsx --test tests/*.test.ts",
+    "sync:forever:check": "tsx scripts/sync-forever-from-addon.ts --check",
+    "sync:forever:write": "tsx scripts/sync-forever-from-addon.ts --write",
+    "sync:forever:upstream:check": "tsx scripts/sync-forever-from-inariaa.ts --check",
+    "sync:forever:upstream:write": "tsx scripts/sync-forever-from-inariaa.ts --write",
+    "verify": "npm test && npm run lint && npm run build"
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",

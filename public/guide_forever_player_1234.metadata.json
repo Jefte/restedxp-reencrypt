@@ -1,0 +1,2072 @@
+{
+  "schemaVersion": 1,
+  "provenance": "public-encrypted-export-rekeyed",
+  "upstreamRepository": "Inariaa/rxp_decrypter",
+  "upstreamPath": "guide.txt",
+  "upstreamCommit": "3ec0d8ec2c0839100a59879ab1db479d0e6ee4da",
+  "upstreamCommittedAt": "2026-11-23T22:11:12Z",
+  "upstreamRawUrl": "https://raw.githubusercontent.com/Inariaa/rxp_decrypter/3ec0d8ec2c0839100a59879ab1db479d0e6ee4da/guide.txt",
+  "upstreamEncryptedSha256": "37e0ba65175a1589d3539a9d2fe56779f6c25fe8baba5904d0a6102939d401f9",
+  "sourceBattleTag": "haha#6767",
+  "targetBattleTag": "player#1234",
+  "envelopeVersion": 40000,
+  "recordCount": 221,
+  "plaintextSha256": "dfeff3a47c8858327716b0b16b6291daa3f717f1f7de1c8f7af0a24a24ea78a6",
+  "encryptedSha256": "6f111a771cbddd2c93be547911e85abd77aa5c0447fe4c82bd68106d029b383a",
+  "semanticDiff": {
+    "added": 71,
+    "removed": 54,
+    "changed": 150,
+    "addedIdentities": [
+      "RXP Forever Dungeon Quests (A) / 30-50 / 11. The Drowned City",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 12. Scarlet Monastery",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 13. Razorfen Downs",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 14. Uldaman",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 15. Zul'Farrak",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 16. Alcaz Prison",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 17. Maraudon",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 18. Sunken Temple",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 19. Blackrock Depths",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 20. Lower Blackrock Spire",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 21. Upper Blackrock Spire",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 22. Scholomance",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 23. Stratholme",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 24. Dire Maul (East)",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 25. Dire Maul (West)",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 26. Dire Maul (North)",
+      "RXP-Hyjal / Hyjal",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 30-40 / 38-40 Riverglades",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 42-44 Riverglades",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 46-46 Uldaman",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 46-47 Tanaris/Zul'Farrak",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 47-48 Feralas",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 60-60 Mount Hyjal",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 37-380_38-38 Swamp of Sorrows",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 38-38 Dustwallow Marsh",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 38-39 Razorfen Downs",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 39-39 Alterac/Arathi",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 40-42 Riverglades I",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 42-42 Stranglethorn Vale",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 42-43 Tanaris/Dustwallow",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 43-44 Riverglades II",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 44-45 Feralas",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 45-46 Southern Stranglethorn",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 50-50 Feralas/Un'goro",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 60-60 Mount Hyjal",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 111 The Drowned City",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 112 Scarlet Monastery",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 113 Uldaman",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 114 Krol'dok Stronghold",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 115 Zul'Farrak",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 116 Maraudon",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 117 Alcaz Prison",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 118 Sunken Temple",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 119 Blackrock Depths",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 120 Lower Blackrock Spire",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 121 Upper Blackrock Spire",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 122 Scholomance",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 123 Stratholme",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 124 Dire Maul (East)",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 125 Dire Maul (West)",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 126 Dire Maul (North)",
+      "RestedXP Forever Guide (A) / Speedrun Guide 30-40 / 38-40 Riverglades",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 39-40 Alterac/Arathi",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 42-44 Riverglades",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 60-60 Mount Hyjal",
+      "RestedXP Forever Guide (H) / Speedrun Guide 30-40 / 37-380_38-38 Swamp of Sorrows",
+      "RestedXP Forever Guide (H) / Speedrun Guide 30-40 / 38-38 Dustwallow Marsh",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 40-42 Riverglades I",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 42-42 Stranglethorn Vale",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 42-43 Tanaris/Dustwallow",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 43-44 Riverglades II",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 44-45 Feralas",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 45-46 Southern Stranglethorn",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 49-50 Feralas/Un'goro",
+      "RestedXP Forever Guide (H) / Speedrun Guide 50-60 / 60-60 Mount Hyjal",
+      "RestedXP Riverglades (A) / 38-40 Riverglades I (Standalone Dungeon)",
+      "RestedXP Riverglades (A) / 38-40 Riverglades I (Standalone Speedrun)",
+      "RestedXP Riverglades (A) / 44-45 Riverglades II (Standalone Dungeon)",
+      "RestedXP Riverglades (A) / 44-45 Riverglades II (Standalone Speedrun)",
+      "RestedXP Riverglades (A) / STV QUESTS",
+      "RestedXP Riverglades (A) / Tanaris Quests"
+    ],
+    "removedIdentities": [
+      "RXP Forever Dungeon Quests (A) / 30-50 / 11. Scarlet Monastery",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 12. Razorfen Downs",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 13. Uldaman",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 14. Zul'Farrak",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 15. Maraudon",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 16. Sunken Temple",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 17. Blackrock Depths",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 18. Lower Blackrock Spire",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 19. Upper Blackrock Spire",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 20. Scholomance",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 21. Stratholme",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 22. Dire Maul (East)",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 23. Dire Maul (West)",
+      "RXP Forever Dungeon Quests (A) / 50-60 / 24. Dire Maul (North)",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 43-44 Tanaris/Zul'Farrak",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 44-48 Feralas/Uldaman",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 37-38 Dustwallow Marsh",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 38-38 Razorfen Downs",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 38-39 Alterac/Arathi",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 40-41 Stranglethorn Vale",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 41-400_41-41 Swamp of Sorrows",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 41-43 Tanaris/Dustwallow",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 43-44 Feralas",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 44-45 Southern Stranglethorn",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 45-46 Swamp of Sorrows",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 50-50 Feralas",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 111 Scarlet Monastery",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 112 Uldaman",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 113 Zul'Farrak",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 114 Maraudon",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 115 Sunken Temple",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 116 Blackrock Depths",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 117 Lower Blackrock Spire",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 118 Upper Blackrock Spire",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 119 Scholomance",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 120 Stratholme",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 121 Dire Maul (East)",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 122 Dire Maul (West)",
+      "RestedXP Forever Dungeon Quests (H) / 50-60 / 123 Dire Maul (North)",
+      "RestedXP Forever Guide (A) / Speedrun Guide 30-40 / 39-40 Alterac/Arathi",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 43-44 Tanaris/Dustwallow",
+      "RestedXP Forever Guide (A) << Alliance / Speedrun Guide 1-20 << Alliance / 1-9 Zephras Isle",
+      "RestedXP Forever Guide (A) << Alliance / Speedrun Guide 1-20 << Alliance / 9-13 Zephras Isle",
+      "RestedXP Forever Guide (H) / Speedrun Guide 30-40 / 37-38 Dustwallow Marsh",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 40-41 Stranglethorn Vale",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 41-400_41-41 Swamp of Sorrows",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 41-41 Desolace II",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 41-43 Tanaris/Dustwallow",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 43-44 Feralas",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 44-45 Southern Stranglethorn",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 45-46 Swamp of Sorrows",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 49-50 Feralas",
+      "RestedXP Riverglades (A) / 38-40 Riverglades I (Standalone)",
+      "RestedXP Riverglades (A) / 44-46 Riverglades II (Standalone)"
+    ],
+    "changedIdentities": [
+      "RXP Forever Dungeon Quests (A) / 15-30 / 01. Hall of Thanes",
+      "RXP Forever Dungeon Quests (A) / 15-30 / 02. Ruins of Lordaeron",
+      "RXP Forever Dungeon Quests (A) / 15-30 / 03. The Deadmines",
+      "RXP Forever Dungeon Quests (A) / 15-30 / 04. Shadowfang Keep",
+      "RXP Forever Dungeon Quests (A) / 15-30 / 05. Blackfathom Deeps",
+      "RXP Forever Dungeon Quests (A) / 15-30 / 06. The Stockade",
+      "RXP Forever Dungeon Quests (A) / 15-30 / 07. Excavation Site: Wetlands",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 08. Gnomeregan",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 09. City of Dalaran",
+      "RXP Forever Dungeon Quests (A) / 30-50 / 10. Razorfen Kraul",
+      "RestedXP Alliance Mage / 21-22 Duskwood Mage AoE",
+      "RestedXP Alliance Mage / 22-26 Wetlands Mage AoE",
+      "RestedXP Alliance Mage / 26-31 Duskwood Part 2 Mage AoE",
+      "RestedXP Alliance Mage / 31-33 Hillsbrad Mage AoE",
+      "RestedXP Alliance Mage / 33-60 Mage AoE",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 20-30 / 21-23 Ashenvale/Stonetalon",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 20-30 / 23-24 Wetlands",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 20-30 / 24-27 Duskwood/Redridge/Stockades",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 20-30 / 27-29 Wetlands/Excavation Site",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 20-30 / 29-30 Ashenvale",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 30-40 / 30-32 Duskwood/Gnomeregan",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 30-40 / 32-33 Hillsbrad/Arathi/Dalaran",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 30-40 / 33-34 Thousand Needles",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 30-40 / 34-35 Stranglethorn Vale I",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 30-40 / 35-36 Desolace",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 30-40 / 36-38 Stranglethorn Vale II",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 30-40 / 38-39 Swamp of Sorrows",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 30-40 / 39-40 Alterac/Arathi",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 40-40 Dustwallow Marsh/RFD",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 40-41 Desolace",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 41-41 Badlands",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 41-43 STV/Swamp of Sorrows",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 48-49 Tanaris/Hinterlands",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 40-50 / 49-50 Tanaris/Un'Goro",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 50-50 Stranglethorn Vale",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 50-51 Searing Gorge",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 51-51 Blasted Lands",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 51-52 WPL",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 52-52 Felwood",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 52-53 Feralas/Maraudon",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 53-53 Azshara",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 53-54 UnGoro Crater",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 54-55 Felwood/Winterspring",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 55-56 Winterspring",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 56-57 Burning Steppes/Blackrock Depths",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 57-59 Western/Eastern Plaguelands",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 59-59 Winterspring/Silithus part 1",
+      "RestedXP Forever Dungeon Guide (A) / Dungeon Guide 50-60 / 59-60 Winterspring/Silithus part 2",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 22-30 / 22-24 Hillsbrad",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 22-30 / 24-25 Shadowfang Keep",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 22-30 / 25-26 Southern Barrens",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 22-30 / 26-28 Ashenvale",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 22-30 / 28-29 Blackfathom Deeps",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 22-30 / 29-30 Thousand Needles",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 30-31 Razorfen Kraul",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 31-31 Gnomeregan",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 31-32 Hillsbrad/Arathi",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 32-33 Excavation Site: Wetlands",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 33-34 City of Dalaran",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 34-35 Shimmering Flats",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 35-37 Northern Stranglethorn",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 30-40 / 39-40 Badlands",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 46-48 Tanaris",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 48-48 Zul'Farrak",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 48-49 The Hinterlands",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 40-50 / 49-50 Maraudon",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 50-51 Stranglethorn/Blasted Lands",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 51-52 Searing Gorge/Burning Steppes",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 52-53 Azshara",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 53-54 Felwood",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 54-55 Un'Goro Crater",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 55-56 Felwood/Winterspring",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 56-57 Blackrock Depths",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 57-59 Western PL/Eastern PL",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 59-59 Winterspring/Silithus I",
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 59-60 Winterspring/Silithus II",
+      "RestedXP Forever Dungeon Quests (H) / 15-30 / 101 Ragefire Chasm",
+      "RestedXP Forever Dungeon Quests (H) / 15-30 / 102 Ruins of Lordaeron",
+      "RestedXP Forever Dungeon Quests (H) / 15-30 / 103 Wailing Caverns",
+      "RestedXP Forever Dungeon Quests (H) / 15-30 / 104. Shadowfang Keep",
+      "RestedXP Forever Dungeon Quests (H) / 15-30 / 105 Blackfathom Deeps",
+      "RestedXP Forever Dungeon Quests (H) / 15-30 << !classic / 106 Razorfen Kraul",
+      "RestedXP Forever Dungeon Quests (H) / 15-30 << !classic / 107 Gnomeregan",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 108 Excavation Site: Wetlands",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 109 City of Dalaran",
+      "RestedXP Forever Dungeon Quests (H) / 30-50 / 110 Razorfen Downs",
+      "RestedXP Forever Guide (A) / Speedrun Guide 20-30 / 21-23 Ashenvale/Stonetalon",
+      "RestedXP Forever Guide (A) / Speedrun Guide 20-30 / 21-23 Stonetalon/Ashenvale",
+      "RestedXP Forever Guide (A) / Speedrun Guide 20-30 / 23-24 Wetlands",
+      "RestedXP Forever Guide (A) / Speedrun Guide 20-30 / 23-24 Wetlands Hunter",
+      "RestedXP Forever Guide (A) / Speedrun Guide 20-30 / 24-27 Duskwood/Redridge",
+      "RestedXP Forever Guide (A) / Speedrun Guide 20-30 / 27-29 Wetlands/Hillsbrad",
+      "RestedXP Forever Guide (A) / Speedrun Guide 20-30 / 29-30 Ashenvale",
+      "RestedXP Forever Guide (A) / Speedrun Guide 30-40 / 29-32 Duskwood",
+      "RestedXP Forever Guide (A) / Speedrun Guide 30-40 / 32-33 Hillsbrad/Arathi",
+      "RestedXP Forever Guide (A) / Speedrun Guide 30-40 / 33-34 Thousand Needles",
+      "RestedXP Forever Guide (A) / Speedrun Guide 30-40 / 34-35 Stranglethorn Vale I",
+      "RestedXP Forever Guide (A) / Speedrun Guide 30-40 / 35-36 Desolace",
+      "RestedXP Forever Guide (A) / Speedrun Guide 30-40 / 35-37 Desolace",
+      "RestedXP Forever Guide (A) / Speedrun Guide 30-40 / 36-38 Stranglethorn Vale II",
+      "RestedXP Forever Guide (A) / Speedrun Guide 30-40 / 38-39 Swamp of Sorrows",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 40-40 Dustwallow Marsh",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 40-40 Dustwallow Marsh2",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 40-41 Desolace",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 41-41 Badlands",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 41-43 STV/Swamp of Sorrows",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 43-44 Tanaris",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 44-48 Feralas",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 48-49 Tanaris/Hinterlands",
+      "RestedXP Forever Guide (A) / Speedrun Guide 40-50 / 49-50 Tanaris/Un'Goro",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 50-50 Stranglethorn Vale",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 50-51 Searing Gorge",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 51-51 Blasted Lands",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 51-52 WPL",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 52-52 Felwood",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 52-53 Feralas",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 53-53 Azshara",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 53-54 UnGoro Crater",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 54-55 Felwood/Winterspring",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 55-56 Winterspring",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 56-57 Burning Steppes",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 57-59 Western/Eastern Plaguelands",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 59-59 Winterspring/Silithus part 1",
+      "RestedXP Forever Guide (A) / Speedrun Guide 50-60 / 59-60 Winterspring/Silithus part 2",
+      "RestedXP Forever Guide (H) / Speedrun Guide 22-30 / 22-24 Hillsbrad",
+      "RestedXP Forever Guide (H) / Speedrun Guide 22-30 / 24-26 Southern Barrens/Stonetalon",
+      "RestedXP Forever Guide (H) / Speedrun Guide 22-30 / 26-28 Ashenvale",
+      "RestedXP Forever Guide (H) / Speedrun Guide 22-30 / 28-30 Thousand Needles",
+      "RestedXP Forever Guide (H) / Speedrun Guide 30-40 / 30-33 Hillsbrad/Arathi",
+      "RestedXP Forever Guide (H) / Speedrun Guide 30-40 / 33-34 Shimmering Flats",
+      "RestedXP Forever Guide (H) / Speedrun Guide 30-40 / 34-35 Desolace",
+      "RestedXP Forever Guide (H) / Speedrun Guide 30-40 / 35-37 Northern Stranglethorn",
+      "RestedXP Forever Guide (H) / Speedrun Guide 30-40 / 38-39 Alterac/Arathi",
+      "RestedXP Forever Guide (H) / Speedrun Guide 30-40 / 39-40 Badlands",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 46-48 Tanaris",
+      "RestedXP Forever Guide (H) / Speedrun Guide 40-50 / 48-49 The Hinterlands",
+      "RestedXP Forever Guide (H) / Speedrun Guide 50-60 / 50-51 Stranglethorn/Blasted Lands",
+      "RestedXP Forever Guide (H) / Speedrun Guide 50-60 / 51-52 Searing Gorge/Burning Steppes",
+      "RestedXP Forever Guide (H) / Speedrun Guide 50-60 / 52-53 Azshara",
+      "RestedXP Forever Guide (H) / Speedrun Guide 50-60 / 53-54 Felwood",
+      "RestedXP Forever Guide (H) / Speedrun Guide 50-60 / 54-55 Un'Goro Crater",
+      "RestedXP Forever Guide (H) / Speedrun Guide 50-60 / 55-56 Felwood/Winterspring",
+      "RestedXP Forever Guide (H) / Speedrun Guide 50-60 / 56-58 Western PL/Eastern PL",
+      "RestedXP Forever Guide (H) / Speedrun Guide 50-60 / 58-59 Winterspring/Silithus I",
+      "RestedXP Forever Guide (H) / Speedrun Guide 50-60 / 59-60 Winterspring/Silithus II",
+      "RestedXP Horde Mage AoE / 21-30 Silverpine/Hillsbrad AoE",
+      "RestedXP Horde Mage AoE / 30-36 Arathi/Alterac AoE",
+      "RestedXP Horde Mage AoE / 36-60 Mage AoE",
+      "RestedXP Riverglades (H) / 40-42 Riverglades I",
+      "RestedXP Riverglades (H) / 43-44 Riverglades II"
+    ]
+  },
+  "records": [
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "15-30",
+      "name": "01. Hall of Thanes",
+      "identitySha256": "a301a71066ae47e57d5476a6017773c9cc0eef9ad6154c80095e404f5d76e398",
+      "plaintextSha256": "8df182bf50d54abe69dec9158e2b7f656749b14ec2795aaa94ad95d14d0244f2",
+      "normalizedPlaintextSha256": "d3ad9b5feda023e50e96313c46dcfcde823b13d00776c8153e574c0ef0a7cf92"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "15-30",
+      "name": "02. Ruins of Lordaeron",
+      "identitySha256": "6620dd225431cb147b265161002fe64d703625826d20e24d5d9e6566764956ca",
+      "plaintextSha256": "9b6ecfcbade41b9fa8d98f9f1cff38238c3cf7ee38e22cd82dbf2b10c1613038",
+      "normalizedPlaintextSha256": "587518642932387cd109b7d74b8ed03506c00a42cb856f91a2eaac7a3dee49c5"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "15-30",
+      "name": "03. The Deadmines",
+      "identitySha256": "efdcfda02c6495d0fbe7df0e19e83e6c9a2dc94557606fef3be28b2f406c2d25",
+      "plaintextSha256": "7ca5ceb7e827df5e993d1afd8f474bd7df0bc90a6d2ccdd9ae1ea94a60732cf9",
+      "normalizedPlaintextSha256": "538e50b534782305480ca081055fe8d2ab6c57c491decdc7fc897e0426012564"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "15-30",
+      "name": "04. Shadowfang Keep",
+      "identitySha256": "1af9831cf8c7d9a018ce2b87de9c56776cf0a4319c86fefcec9c46b4c0f2a03b",
+      "plaintextSha256": "df2e05baa683d3bf1070e000b9a8cb5dfe32c848c75387665b7f302ffeda3153",
+      "normalizedPlaintextSha256": "ec2a5c057f3ca1ed54e540f15a394970337595b91a5300e15ff322a547cfe82f"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "15-30",
+      "name": "05. Blackfathom Deeps",
+      "identitySha256": "866be95eb5428fd9548dd753c43fa3eca0d28f75b6cde938f7a1795042caadc4",
+      "plaintextSha256": "e6ec2c55a213fe2d76fe8e7fff48857efb980d5bd9ae24cf8a485ca039830198",
+      "normalizedPlaintextSha256": "57db742614f820701e99be1574e3e1db5f241b896912b263b849e9fa21a1ea2b"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "15-30",
+      "name": "06. The Stockade",
+      "identitySha256": "d409ca1c5b3287c5add3818dc03f785807b67270d5e1b910f58803bdfa6b63be",
+      "plaintextSha256": "c7b9cc969db760bd820bc06849b6e1a185ff02e0f90d068ecf421bd3bb9d807b",
+      "normalizedPlaintextSha256": "42ca6312b9ee328f95380756cd44e6dfb40447e4df59865c6e3c7e4800ffca09"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "15-30",
+      "name": "07. Excavation Site: Wetlands",
+      "identitySha256": "b62172be9aea7fabdcfd7dd6fff3069ac24f130ce38ebc5096393506e2115b1a",
+      "plaintextSha256": "5457cddc9f01244d0b201fe45ab56d2c18c65a9ab28f6b2aafd9ff93966c4923",
+      "normalizedPlaintextSha256": "39a0aef3725920ecd387603445b5ea44bf0134b2f27470fc4b3ea5ecd67471b9"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "30-50",
+      "name": "08. Gnomeregan",
+      "identitySha256": "0d29cf2923145c27b1bc668a59b254206e9c04b69a2386e8716e74611ebe4993",
+      "plaintextSha256": "2dd4558b412299739d8c974e8ac0e46f22c7d0568d539fa77f8dd080693b77d5",
+      "normalizedPlaintextSha256": "b07f479ac515226b677f88d5247690f43fdbafeae215ba2855fb441eb51ab743"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "30-50",
+      "name": "09. City of Dalaran",
+      "identitySha256": "fbed0512d1aa6b9af9fc46f697f2764e02a6e6e197bae9892f11274d059f1966",
+      "plaintextSha256": "ab033b253c8992b389d90686bf5d254784690112de3cea92f4f9bd5ec8714513",
+      "normalizedPlaintextSha256": "bc5200557fc60f88d1d0b1cf5d29bd4e3af1f2d94a842f840005d63ed1c02348"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "30-50",
+      "name": "10. Razorfen Kraul",
+      "identitySha256": "b00c967d02713b8d1d24133fc9cf7a505cdf6fea8496438e85d4dda0c2a6debc",
+      "plaintextSha256": "e1187b3ec67b4b0f59e29ec63bc17ff18f8fe65e8a4bb52722032c5c8611764c",
+      "normalizedPlaintextSha256": "6014e2a2310caf1f6811e048c31506880842d3ef460c50c90f1078f4d2628f2a"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "30-50",
+      "name": "11. The Drowned City",
+      "identitySha256": "35f077fcb3fbbb8ea74ccded6e6471c6bfb3d60f0b6dc6565fa22762b4a88f54",
+      "plaintextSha256": "1d0817ab16ec9d997ba4e49f7b4fbed551caec8306ad31d2f2de4e9e2239a539",
+      "normalizedPlaintextSha256": "4fde5bcfa6c158922478aab8d131656bd2fa44d2d0db7dcdd946ced38a938092"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "30-50",
+      "name": "12. Scarlet Monastery",
+      "identitySha256": "f2904908030662b0e99fd22a61012c1d21e5c372d2c88ef3c6dfb6e029a860c9",
+      "plaintextSha256": "e31c2677388f30590d3d186bfb87f3b0c175c4e39855df5040aeb7126b23d855",
+      "normalizedPlaintextSha256": "423f4fe725042149f81f10e3ced9547c70134bc4425752a71193926432de7422"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "30-50",
+      "name": "13. Razorfen Downs",
+      "identitySha256": "cf0d0539e5b0dadaa74e8d30ae5f3e1895b1ed61402ea079b5517d80c3a34462",
+      "plaintextSha256": "d78e844a8658fe2c077d813834c5ec162069f4391dbb2b04a36943ff08c3a129",
+      "normalizedPlaintextSha256": "8f1e9d58f4abb33a52844b450da62024e244da769bbf56e89f53ad52028a6051"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "30-50",
+      "name": "14. Uldaman",
+      "identitySha256": "413933154f4c81421ab2b725409ca571e192074e30b2e73d3a107ca01c6270e2",
+      "plaintextSha256": "dcc4b82a7d2d2bc473b4f11f704e6c09fcc2afad7a5a717e16aa4c8b04d6b865",
+      "normalizedPlaintextSha256": "736cfb21cd96aaa7d78bd5af13837d62f86d3d8ed03659d3093b75c0c8a65963"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "30-50",
+      "name": "15. Zul'Farrak",
+      "identitySha256": "ba21b66ac2dc24a7f84406753c14a144a7482f816c270fa22d7f4e2a13fe98c8",
+      "plaintextSha256": "a135a69f455a419257c97b8aa90ba2e27b30eee4aac62b9b1b58224dd198473f",
+      "normalizedPlaintextSha256": "7d16180523b27dbe382040e680bf109706fad54e343aa3b2687740f28155fb26"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "30-50",
+      "name": "16. Alcaz Prison",
+      "identitySha256": "2b38c27d643f6268c41e0d2af581c435976eb9ebedeeff9d6cc4f20a4031562a",
+      "plaintextSha256": "eb8516b0e40f3fc385706edf0be761675c7c3ba675380ed0979dd53ddbba1d82",
+      "normalizedPlaintextSha256": "9920289672aaf64d5bf765c4a2688a7fd6edba6f91af7ec19dc9b37dc558121f"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "50-60",
+      "name": "17. Maraudon",
+      "identitySha256": "b36f44c070b10f9e511e09e6723f6759e1c2af2acb990a2c2acee35a85688fd5",
+      "plaintextSha256": "09791a82a86a389014101d6a84626affe888d812372879c0ac5751258d6d3962",
+      "normalizedPlaintextSha256": "b12eeed417392c59f9668953f58999ebba55ada461217c5d094515f978ba0e81"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "50-60",
+      "name": "18. Sunken Temple",
+      "identitySha256": "579a75e4b1c61e505a34f55552e2739c9186f1d3afe1c8116465aa4ab9b682b7",
+      "plaintextSha256": "dee5c99cdf054ea8ad3da2b80f53e1d936dea07dd126ae08fbf60f9a6b0e0c48",
+      "normalizedPlaintextSha256": "613406efe270d995ad437485bd600e0523cf575154d207ed7cd4425d87cad5ce"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "50-60",
+      "name": "19. Blackrock Depths",
+      "identitySha256": "a8ca4da6f5b7027cbf9c28f436f4eff056fa51a4f802acff09d6d294aebd9e15",
+      "plaintextSha256": "ef3a8dfe6f8c65cf6c34f59415d33ff730e244fbda28e4cbbb96c09a93b7025a",
+      "normalizedPlaintextSha256": "d4f617b7a2a1bf0085807e9879149ea5afe63d89fef31a235f8bf78796f0ee90"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "50-60",
+      "name": "20. Lower Blackrock Spire",
+      "identitySha256": "f9fca6a7086c80bbb7489ed47efb6dcf534613eb3665de0724f6baf07a10578a",
+      "plaintextSha256": "1b93a376b49eef225634ff244adf5068552546fe10b17cdd566401536bfa114a",
+      "normalizedPlaintextSha256": "567230405cadec094a08afc752ec3e4bc977c4ee59b122602c5bec0579762a05"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "50-60",
+      "name": "21. Upper Blackrock Spire",
+      "identitySha256": "9cfb1e3d1bf9ab80ac519ee994f5154ffa3ef579928d3a766a7988f8bf1b665f",
+      "plaintextSha256": "9967108157d89e4f1ef9e101ad6d13983d918b152b233c5501818ebedc44f444",
+      "normalizedPlaintextSha256": "9de4a508bc164c56690e1056a94bbdd88b4b1ddee138800fdbe266b963211468"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "50-60",
+      "name": "22. Scholomance",
+      "identitySha256": "364de32a42499fb9d4961f7c49f4607f99ee7aa3f93cc1a431caa88970238f8c",
+      "plaintextSha256": "7a08bd701e15309bef83d6cd155c2776e13e361e3b8a7db63081451d6d97271d",
+      "normalizedPlaintextSha256": "75b7f155ac29d37a11d156617d3b13fcce765092e23d76c8e6ad5cb1cc016aea"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "50-60",
+      "name": "23. Stratholme",
+      "identitySha256": "c3deefac87eb365e173912ce2f25990b5a1aae2b1d7588b2d942ac60b8be3479",
+      "plaintextSha256": "486f42336eb365ef40a9c629fae699145a35657c08e86af55fedc992206c5c9e",
+      "normalizedPlaintextSha256": "01278559a0147ff7d41f5e438d1a4643e9028431540411b2d311f0fd72884ab7"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "50-60",
+      "name": "24. Dire Maul (East)",
+      "identitySha256": "f2420b4e705bcf55c4420d5c2ae066c0fe73195ad08a0b8728f370f9c8f24f75",
+      "plaintextSha256": "3341435390b1b2da3f1732a0dacf4ecb6affb9fb71c8168f5b5ef6123d85d357",
+      "normalizedPlaintextSha256": "9839fcdb5d3236ffba3595dd186d5a509f9af03dd44eec78ba4628b2690198d4"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "50-60",
+      "name": "25. Dire Maul (West)",
+      "identitySha256": "08c88d0d1e37931c437a794cad451a8a2aecf78d94cc9fd1b285356c3b56aa88",
+      "plaintextSha256": "451b3366de1272c43718a1877a62b10100538545b6388cd51cbdca35b6f894b5",
+      "normalizedPlaintextSha256": "3048c897d444fb11d00999bdcd5d736f4a517dd35a90f8d6cca02dc8e9d4a08b"
+    },
+    {
+      "group": "RXP Forever Dungeon Quests (A)",
+      "subgroup": "50-60",
+      "name": "26. Dire Maul (North)",
+      "identitySha256": "7724b6d6b5774d30bf35fe38105aa747f5958ac65d27b1a179b02801bc39c725",
+      "plaintextSha256": "66b22af93cfe07c23edeb18ac774a7b1482aa5a50b63a4c740bf03a9e798f169",
+      "normalizedPlaintextSha256": "2f846be6a26c468ad255b93f6ae65f02dc4dc7155230b93680dbb98f7182ef47"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "15-30",
+      "name": "101 Ragefire Chasm",
+      "identitySha256": "00fd67886dc408721002f81b45a717595798becb0d82b56519f923237e1cb96c",
+      "plaintextSha256": "e49e97f503626c8a9f87c9ee26dcb4939b4bf20a79cacf0c7728710269df1c34",
+      "normalizedPlaintextSha256": "fe2df7454bdc9e55e11e9f5c71725e3fe184926a7af6bb1cec7ebc7fb85c4e0b"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "15-30",
+      "name": "102 Ruins of Lordaeron",
+      "identitySha256": "646174645a06e01b6edea7da5aa751f51795d172caf5167bf50ff64dc9e5cb3d",
+      "plaintextSha256": "f1e9328b09d097fa94a8c8f730d85cd5cf50a48b2d27a5c2961a647ad051d957",
+      "normalizedPlaintextSha256": "c5c0f917802e5807a2e27545082b9ca1d122638ad3c414df1c2658e31d65c8fd"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "15-30",
+      "name": "103 Wailing Caverns",
+      "identitySha256": "0a1640df3567ead707e67610cee18b909598f8c951a35b857437f09ca9758706",
+      "plaintextSha256": "278c96a5b1326745317d6ddc282ca06a245b347ea10f35550f1e29d387a46400",
+      "normalizedPlaintextSha256": "b5dc0dc779e139dccbb06048a6e2d07eb37f79d5037f142d6ad1bfe25df7f1e4"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "15-30",
+      "name": "104. Shadowfang Keep",
+      "identitySha256": "a732b4dcae0a12bec80f73d2772938a016e1e9c538f6970936a0a885ba374cbd",
+      "plaintextSha256": "f29b22c46851eeb577032db30e2b09af24e87def8ab81213ad570442d9a1787a",
+      "normalizedPlaintextSha256": "b1ca594373a892ff2fce2457fdc49e30821d8726b0f6b5600082045ccc127793"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "15-30",
+      "name": "105 Blackfathom Deeps",
+      "identitySha256": "5b59d0644718bb9f5ac0290bea0bcb43e3312028458dc731a95d74a28fc0e117",
+      "plaintextSha256": "3d79933aa04379c2f2b589bf1bef04ecd6a4c1b4e8dbf32e0077cb082856767d",
+      "normalizedPlaintextSha256": "dab9c26870b214314a0c7060a2271a68ee41301c2588c50274bb838302d75c78"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "15-30 << !classic",
+      "name": "106 Razorfen Kraul",
+      "identitySha256": "d1c6bc6c728a39802615a0102e70e0f31f8af9feb15b7168ba1a4a601536a71d",
+      "plaintextSha256": "a86fbc8914da394d83ac325a424d060868be924d870688cd91ef62650f7c8f01",
+      "normalizedPlaintextSha256": "10f5c8324cd222eda17a41c2a71427036e7f85fc9d497f18486dfcfc4e6da061"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "15-30 << !classic",
+      "name": "107 Gnomeregan",
+      "identitySha256": "6f651ddd6b0682ad7fd4c1951887df871c24f4d9a9a758c990e3fca04bf549f5",
+      "plaintextSha256": "c97ba67334f3a74652f0b0d6b50d3672775c85ad26b036ba355b57c477d75eb0",
+      "normalizedPlaintextSha256": "8e6a42789af9f1d9a96b8a20db4a9185553170851de5a497d059a44df97daa99"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "108 Excavation Site: Wetlands",
+      "identitySha256": "98ad8c04ef66f1b9e2d3b3ff5b72e947177888648f74874ee2c3cec3220ccb17",
+      "plaintextSha256": "aa12949fe4d7cf19ec9609c396565b823cdbe5f91768987f27664c7f40c6409d",
+      "normalizedPlaintextSha256": "2b51ae61f764da27c801c845667da6f51b45bca29a01ad1137685c0ed14db43f"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "109 City of Dalaran",
+      "identitySha256": "d7591aefe42b96c78e0b3945a812a257ef8d0f1eda0ac62b649ba484f7f35b2d",
+      "plaintextSha256": "cb4908818298acd444bb0c4d11f6c5ac0ac027795c749259db72f4e168b1ff78",
+      "normalizedPlaintextSha256": "53cc0e195761961019cfe9862cea7e574f4e182a5410f4747eeccee6dff31753"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "110 Razorfen Downs",
+      "identitySha256": "f6d84a908a589d291c3d545ff69bffaaf473a3adea420c1fe79157d8ea56570c",
+      "plaintextSha256": "f32d2734fab32b8424e57f0df56142671bd84ad542a2df6da0ce9bbf3d5c1d80",
+      "normalizedPlaintextSha256": "58c7bbd543f09991b5c0ba1448019e26312d427a92c145c555b249e4d49fa4fd"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "111 The Drowned City",
+      "identitySha256": "45c9f6a8d6adc5d1ff3b49d7f78eab1eb7175eb3fb933ed2905dcc79ddd16b73",
+      "plaintextSha256": "2d69320027c6cfa1d3f0371fc74f21970aeef6d387cf9129ad8f4172d042f589",
+      "normalizedPlaintextSha256": "93b7ded2933d4d914213bb50aa1f01da8034e33ecab3b80174045fad283739e4"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "112 Scarlet Monastery",
+      "identitySha256": "5891404cf9f42419822b0b490da398826640a7176523e39302b1009cdfac919c",
+      "plaintextSha256": "f8ca6a7e1eca07739cfa60cbbf9c1853239475c28f8c1e956739cd260211e7b3",
+      "normalizedPlaintextSha256": "07928f31eb9deac6cd6c9a028473af1071711915ed1bd7aa273c2d4357870f7a"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "113 Uldaman",
+      "identitySha256": "f7695fffe62ee573ed98c942cc73432967ce6d18f163324e3e51ccc281da0faf",
+      "plaintextSha256": "a4edb943392c4be62b187edbc2cc31127eb4a7105e69d95b7e6994805940a6b1",
+      "normalizedPlaintextSha256": "869bb847f1d3f316f407695e85cdf10dbf4e69dd49539edf51a7ffe844d5edbd"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "114 Krol'dok Stronghold",
+      "identitySha256": "d63417f75e42a1cb4b72b755ec9e07896a4eddb9fa2fbb50d28f74f97ce18a51",
+      "plaintextSha256": "8be6f4aabd05857ccb9affe1748a841a7ca3f11a1b774681479cec5fbfce247e",
+      "normalizedPlaintextSha256": "e8f12ebc1cfe2d3cc4bb31534f1497628c9b3f8b9f9e285d606bebc4d6e520ae"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "115 Zul'Farrak",
+      "identitySha256": "2ad4a7c76d57aa39286db20af8bfa99a821f1dcfe951d4299f3741bc141933ab",
+      "plaintextSha256": "fc6caae60e37f2310ce89719f41f025adf9aff4d892a90e62efaa4ae0b4cf698",
+      "normalizedPlaintextSha256": "6dbf329315da908bc7c9f4004588164f2714904192955f92e2f70e55ae9df2a2"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "116 Maraudon",
+      "identitySha256": "0a64f1ab58c12c64876e24a4fdf849eeba423977917f43301d2b0cb1b5207efe",
+      "plaintextSha256": "898af9c73ad54cb1152866bf028f9f3f0af67ee1bb60e58bdfd0d1dee4887a26",
+      "normalizedPlaintextSha256": "a412937470c5cdc74f2238050e95087b61890b94c777f4e2b1b708d6b00277e2"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "117 Alcaz Prison",
+      "identitySha256": "ee28d452a2027a06b895e0144cab1ba191bdbe5dd863302d1d5bca0041b37253",
+      "plaintextSha256": "7b8dc107cd321a18f17121ba3e34ab1d3fdf6f74baebb63a48a7a197aa06953d",
+      "normalizedPlaintextSha256": "3e789e3acde839bf9486104df04e81313f13be702e920d5cc8c9772b207419c8"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "30-50",
+      "name": "118 Sunken Temple",
+      "identitySha256": "0842b7d4bdb8d5220f87073039395c07a41a51382602ac380cc0d88b4fe25e72",
+      "plaintextSha256": "dc4b800bd536c179d3f40cf9ec01235e2b42d3c1cf852113cb89dacecd8b8979",
+      "normalizedPlaintextSha256": "7045e037e67226b826d858dcae7461260b7b6aa611022a109e1d66485fa3fc84"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "50-60",
+      "name": "119 Blackrock Depths",
+      "identitySha256": "1585d425dfbdd87a4b2a238d035a28647bcd0927e3c71133edd53fa2fe8b598d",
+      "plaintextSha256": "221e7b043acae29180d4f3fed7f10f4d85162347cd3fcdababccada6d96bd189",
+      "normalizedPlaintextSha256": "ffd60622274d6411e8576ba51cf072bfd5ba1a4045af29304cac792192bd0219"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "50-60",
+      "name": "120 Lower Blackrock Spire",
+      "identitySha256": "ed54a9d65a09aa8889f4002202c29710865bbdd6915af5be7824d73620b017db",
+      "plaintextSha256": "44036ecccb2d4bee7998e10e5f2b22d4626748d8cd3407f1315c0f6b773ab3e2",
+      "normalizedPlaintextSha256": "2ad8cde71883301d0a56c31e59de839f6bb4400013266e9bf16ccb13748ec374"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "50-60",
+      "name": "121 Upper Blackrock Spire",
+      "identitySha256": "7ef3b3e11314d8f6fed0b07e711fb3eefe6fe2c615caf857749d3b149b9e6893",
+      "plaintextSha256": "018f3a753c3edb52f9afff9a5e26c2e9309ac5da221d8d2ba72b09d58f1000f5",
+      "normalizedPlaintextSha256": "64159e626694fc132f9c85d6a643d6299cfdad2901d35db08f25590fdb839aa2"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "50-60",
+      "name": "122 Scholomance",
+      "identitySha256": "e2752803ba939fe40691a9fe06a7be7c21cd020b6a4b77076f8e9605df2d3b62",
+      "plaintextSha256": "e05359a549f4052aa9d3345b5e82a5dba966a0b259c91ff968ec86ff63c86a84",
+      "normalizedPlaintextSha256": "aa5016264047df95cc31552b6d980cafc709b396f6c39269978b41fecad642b5"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "50-60",
+      "name": "123 Stratholme",
+      "identitySha256": "6bb7876a1165e53909ee4027815580174d18f210ff0fcb6ce5edae46610ea810",
+      "plaintextSha256": "b74639e638de5a75b449ab283dc8a032d821ced38fef053ac30b0fa02a9edff8",
+      "normalizedPlaintextSha256": "31ceaf3cc4c96921037405d870b45403bd7e647e364da3fdff7c3df716a7b2a5"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "50-60",
+      "name": "124 Dire Maul (East)",
+      "identitySha256": "58b19ff962d529532161664702f6207693ca679c1ad98c0c40b2bd464cd3cdd2",
+      "plaintextSha256": "958407e0352bed8d204705e74775da8d840ee88c58394bad7357362be2eecefe",
+      "normalizedPlaintextSha256": "e2b968f336d01c77b1882a95d8f1a44d6d851ca45427ccef8670c9e828ba1bb4"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "50-60",
+      "name": "125 Dire Maul (West)",
+      "identitySha256": "1697fbdfc4409d4150d7c8d25d4f7bd5c03676e2fdbab518d977e6d27347a77b",
+      "plaintextSha256": "ef4aaa8e25e310c8f709d296b1caad7ae45173b426d87597824693e0111d41a9",
+      "normalizedPlaintextSha256": "cc6af92625935eeaa092f6e886f8b1375f47d53d75d6cd63865fc2aa3b7438cf"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Quests (H)",
+      "subgroup": "50-60",
+      "name": "126 Dire Maul (North)",
+      "identitySha256": "f52d0e6c27564113f7a89efc30e3006855842631ab0f7c0391a6013702947f44",
+      "plaintextSha256": "0497bbbe8c886518cb3debab361be9dde5a56339e8dff72d650dcf444a99604a",
+      "normalizedPlaintextSha256": "e3c901300553d56bf8fa24f58e90e77ef58787e927b80780aa0c59f7fdddbcb5"
+    },
+    {
+      "group": "RXP-Hyjal",
+      "subgroup": "",
+      "name": "Hyjal",
+      "identitySha256": "b4ca45de75517d26a8ce381eb5a5ee14b2d824ce5e5063f1ab54fd3b6659eb33",
+      "plaintextSha256": "799c173aa39fe7b6f02d2e0b3cbe7ce999fcfaf6a7c38ae4b8a46376f97362ff",
+      "normalizedPlaintextSha256": "2da90fda543d76b5c91ba6ec34c8a2035590068c0300b3d1b12acf55b293b139"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 20-30",
+      "name": "21-23 Ashenvale/Stonetalon",
+      "identitySha256": "34bf0fd6fe036a006cea7d9093a9776e431dc68d09c274ad080117773180189b",
+      "plaintextSha256": "307d8599b5e360f760eceed0b39babf4fcfbccda4b21cbedf7bd04b07de30942",
+      "normalizedPlaintextSha256": "b67236f78169fed0347f3bba6fa4f595d46cceadfb33d47e48650cc5df0b2cf8"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 20-30",
+      "name": "21-23 Stonetalon/Ashenvale",
+      "identitySha256": "3db5582550d412ba642e7a11b6222700ac52efaa3c9408934ae7e0cac5cf2b76",
+      "plaintextSha256": "55259059507a64c3fc7050dd27816e6945b6198f03c75e2e34647a0b455665f8",
+      "normalizedPlaintextSha256": "2e6eea348933a6254f8757400c843a826b0fbe2a595d669226e3dcf16c7c79c8"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 20-30",
+      "name": "23-24 Wetlands Hunter",
+      "identitySha256": "b9de6b7048c5cbd4154a4f2fd62c3e94e8faedeef4fcc5ef45e664306a61d0b7",
+      "plaintextSha256": "10362e0d44c13bd2e275c0cec72819b91982d0134608b0cead36cebc0ace06b9",
+      "normalizedPlaintextSha256": "9aeab7d57db7ae6cd71d307e86b50703d774ff3f0d4b7f4a8f9555c9e29402bd"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 20-30",
+      "name": "23-24 Wetlands",
+      "identitySha256": "a3564ae2074930449b2495257553f49f4a7b25c62ea606c221f99c1c17523ad1",
+      "plaintextSha256": "2ebd9fc8a8d905c38bdf6c829d6886068bea5326cd8b6ec9f936d15ee7bc187a",
+      "normalizedPlaintextSha256": "6cc9f2194476c53b2837aedb0c2b0f46d38944f1fe653ccfa77496ecb47d4c15"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 20-30",
+      "name": "24-27 Duskwood/Redridge",
+      "identitySha256": "e5c97958c8f3f07e1f478a5480a0e3937870c441f2d45ededc7bf6054e64cb82",
+      "plaintextSha256": "8fbcc46b103343f6c02029d60542f56383713b5b34593d19f55ac50a01cac912",
+      "normalizedPlaintextSha256": "33b6a715a992bfaac8e88c4c599151b4b24d3cfb9fa4cf22d3c38eb8894ed309"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 20-30",
+      "name": "27-29 Wetlands/Hillsbrad",
+      "identitySha256": "950fc2a02e5e8ac1957a6f10f3102cd5c7533c171bb689c3986a0298e68a96e9",
+      "plaintextSha256": "7a9c533bec09d225460e88d3668fbe85dbf0e9bc0b0f5225c18975196bd36634",
+      "normalizedPlaintextSha256": "3e955a9a400bdc93ef2298373294f7c4d2abe73b2e57e4cc14e91e958894c998"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 20-30",
+      "name": "29-30 Ashenvale",
+      "identitySha256": "aa1c094da1c0e8b0da059bb1d21675e9659539b88171a18a591c7b79ab930820",
+      "plaintextSha256": "0a630e3d8a7c08577ce66c19061140bf22f7f0df7e4868d0297fdae232d262ce",
+      "normalizedPlaintextSha256": "4db5f99b5fb237383347ca01081b3e4bca970f0753c8cb3eeb74d8b54a602e87"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "29-32 Duskwood",
+      "identitySha256": "3cbd47e38b542fda30950f53ba8eeda1e5e263d7252a8f7944c0d358f430ab70",
+      "plaintextSha256": "a4532195a5311a74cf6f4bb0a574fc5e7c6f83cd4fa9843708efb2cb0181170d",
+      "normalizedPlaintextSha256": "4a546e791711b65d959371c0c1ee1e5d60a629b6237ff97c28e50ebc91165fdb"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "32-33 Hillsbrad/Arathi",
+      "identitySha256": "458eaa592b54c07f63a4d47e10f6605b3745278de880d18e12dc9e70df204aa7",
+      "plaintextSha256": "d262501194c1540bb7119c1d1d5c53d0ffc4a4c487bd2da5507824e1ff0b45b6",
+      "normalizedPlaintextSha256": "b96a948ae9446a6d2f09d226fcaec1efc5787feb8bbc28dee27eb74449995511"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "33-34 Thousand Needles",
+      "identitySha256": "1587d7508412c53e0d79ff8489edf8929e26354aeb9ca39c53b205eba7a81141",
+      "plaintextSha256": "b8ecb4510ebc418716c95ad5a563b427e134a9f66fb130bd6446dd0537c4b9f9",
+      "normalizedPlaintextSha256": "624e9f971f83320fa6e0698569d3f7ff6b478505066e7eff410a2447efd7f144"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "34-35 Stranglethorn Vale I",
+      "identitySha256": "d686ec925c2585ed213c6934932f1259e98c96cda2feed87a7f0778d1267e9b2",
+      "plaintextSha256": "cbd9f65f1e6fddb3382fa976de606220bbef01f682cb3c4116819697432ea762",
+      "normalizedPlaintextSha256": "4ba165a8e22025fd0c8d83c647decd053087a1cca0eec3eff423bac12e6cd8c4"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "35-36 Desolace",
+      "identitySha256": "f282e03bf773e8ce521286c2ddeb093bf69c21c9a38a393baa67f63c6033ee65",
+      "plaintextSha256": "ac83dd74dc8f6bc0c20f30d589bc014976437582261b3b154b8bb1062880f10b",
+      "normalizedPlaintextSha256": "e88217acee854be175074a713c18e8d7fb354406eac2df30d70c5f5feedeea29"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "35-37 Desolace",
+      "identitySha256": "eabde5de2905b88ddaeeb4a71a32d0464e28b918d88f31b774cce194f4bfe3d3",
+      "plaintextSha256": "e2565f6822a2047f632a037d77fe3ebeff52b13e1b47d3bbcf3f969763f4b6b4",
+      "normalizedPlaintextSha256": "c509941cb1a61b93ec4959970f3f6e599301386f8a0e701c7e5aa8541f6d6793"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "36-38 Stranglethorn Vale II",
+      "identitySha256": "35383cdf418dd0011c0bb6bcca6dee95b39c9bb39496d9e0db8ba76ca89ab6af",
+      "plaintextSha256": "25e6e57b54a56cf5548920ff469e75293f177a122671760e1a462baea50cb10f",
+      "normalizedPlaintextSha256": "9fd8a9795c9eaf34430d71660077ac496f413bf6dde583957d93655e3eed9d4c"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "38-39 Swamp of Sorrows",
+      "identitySha256": "737a2dcfd9305cffe36ac0e1fabeda5b1e629c93255bb619813ff5e679f3a53c",
+      "plaintextSha256": "c249e27edf2d10d5fc7664b9ea6f23f7d1966c025ec0348a506bde855b57bcb8",
+      "normalizedPlaintextSha256": "333430ca7d2b4ee1e4b7c1677d104e5257d834943611a618e150d1247e3b7bb4"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "38-40 Riverglades",
+      "identitySha256": "555f3ca94121a7989993664877d41cb563e07311dbfb7f6d0dd0929e5ac4e863",
+      "plaintextSha256": "9e1bc96fcab5e532ad74d092e1178c557122bed67ba50610702cc8b081cb6602",
+      "normalizedPlaintextSha256": "6d5df6c69f47f39b82660cccd19a296496393048c46867cc9ba01c1897c1dd00"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "39-40 Alterac/Arathi",
+      "identitySha256": "7cff4bd0cf370921407accc92168312fe19ba4b8baccaab0f4b852ac09345e2a",
+      "plaintextSha256": "0a797bdaaab4684162f0b7c5a975ae7d55448cc3ebe9a0e66a62304a8f89e1c5",
+      "normalizedPlaintextSha256": "b41768c811e29f731bc7c1c1e928e3e1ecd1ee2de3632091bb3b3aad8bb76c50"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "40-41 Desolace",
+      "identitySha256": "6028d68e9e2d1c367a887a7f00c16db782309230424906f27daf067dfff36fee",
+      "plaintextSha256": "363b231ee087270b36132e96eb77237c17ccc9aadb110348110769464dbb23cf",
+      "normalizedPlaintextSha256": "4fd018b636483c3f2d708519b68ebba110108360c8aaab0af57a32d9d34da0ce"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "40-40 Dustwallow Marsh",
+      "identitySha256": "ce50ef736d6df92de9698f0f7c3fb1111f84d83d3c971e71b446fbd7d86d145d",
+      "plaintextSha256": "326cc9efc30f33c76e80f496f09377e05c4e1a6c4dd96049eb2b466a94b596cc",
+      "normalizedPlaintextSha256": "99bf3d73838946a0441af13c64525ec1117a47ecaf094d079ee1839546328a3f"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "40-40 Dustwallow Marsh2",
+      "identitySha256": "10417f589d0ffb744ac90f894f0c88897048afb74893db0d69fe5df7e1b78273",
+      "plaintextSha256": "984c84bf503fdd4652b71308e55af115cd9774ad7eeca7851ebf008b6bc9c8b2",
+      "normalizedPlaintextSha256": "683865569b1ff528fa87006fafb2dd7401e309a14b93ebe5a810dda3736209bd"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "41-41 Badlands",
+      "identitySha256": "8346e119f05a2470a31d3d1a1bc60eea65f4946e4428884912de62b673051cc4",
+      "plaintextSha256": "a240c34b166252632c6b9524eac800d64af108ce24ffb2d70f090d41aa32cf1e",
+      "normalizedPlaintextSha256": "f36994b662ddcbd8361798811c1d9d0095972dffcb7dc7ef61c2304adbdbf66a"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "41-43 STV/Swamp of Sorrows",
+      "identitySha256": "b329510bf353195056d706331d6bcb890c9adc70e59497881275f465cf9df38b",
+      "plaintextSha256": "91a76332fa9d31937580346b5ba37e10b28583153cccc7a5b86c7fd0259a380f",
+      "normalizedPlaintextSha256": "0d0526ce41e15bc04db1d046e31942c192c17e65ff546e78552fecd475457663"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "42-44 Riverglades",
+      "identitySha256": "ca1195e68d00e76eb9feb07bd76bb9f9e07a6cdf347da72e1ee2073d0f8e977d",
+      "plaintextSha256": "56ae3a19c0e3fda831d9cc5cdfd7e9493046c7c2e21925f83cc0f5e9747557a6",
+      "normalizedPlaintextSha256": "a538acf12e95b2a6014b3bec3bdbb40c6e389b9652b28d6aff3729870028fb4f"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "43-44 Tanaris",
+      "identitySha256": "14a6e8e3d9bd669c8e377682882bd1216e3ec8c47177d3a7a9f83580e94b91e8",
+      "plaintextSha256": "ecddc579f0517e1c59d6ea597dde61d565b77900552ca8f43eb706c4a62be0d4",
+      "normalizedPlaintextSha256": "9a029c42bb06473cba36b3c040f2ad46adca6c57c43a02823fb9ae0ea806f6c4"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "44-48 Feralas",
+      "identitySha256": "1fea1ab26bb8244293c9783084223aba6b8dade0b54087940866367a21ff407e",
+      "plaintextSha256": "6a7805277189e49891b13b92b789c9ff49720f19ca09545e3de4004d1db1fa11",
+      "normalizedPlaintextSha256": "f8fc38cb6cbad7ec16a3e8b4a25353e4d387504dab44430623afd9091a12dd21"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "48-49 Tanaris/Hinterlands",
+      "identitySha256": "76bb0d7d99e91d3fb6669f6f4306c9284992307f2e78a4961f23615473b07367",
+      "plaintextSha256": "2783c72907b45b923ca1931ab9edbf3ced71e25a765b0017a228432196e92f04",
+      "normalizedPlaintextSha256": "939190f0745903590adc0cb944ed0ea3eee6926bc4bed28c57c600c25dae0706"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "49-50 Tanaris/Un'Goro",
+      "identitySha256": "a6b29ed17c15c9e0a1cbee85eaf83e7dfb7b00316bce3b41478136121af5104c",
+      "plaintextSha256": "692627e9ff492fed39bb2df2e90b6e9d92c94ef31e5b6c44f78b3a0b17c59d65",
+      "normalizedPlaintextSha256": "d7f87a5dcf046e8e1b0b2c9f5c525875eb0b1fb72febd67e3e46205b815316bd"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "50-50 Stranglethorn Vale",
+      "identitySha256": "f4f24cbd00bb46c7730bf12091510d875c5e4a5033d5a4362bf7b85164117dd4",
+      "plaintextSha256": "4ec62532d3fac382752a4a72794e5c4fcab2d1a9900e2bf652869aca5f05149d",
+      "normalizedPlaintextSha256": "cb84c62f200c976e155beb7bd0770dcf5d8d1f473fdc2e47b3e19102e13166f6"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "50-51 Searing Gorge",
+      "identitySha256": "f5d649f9c9309064a2ee628eb1abee077eb2630008f2a492761655e1ffe60d3f",
+      "plaintextSha256": "29d0e318858b89ad41de10a15f64f366c473248ca44ac1d400de8b9039d2acfd",
+      "normalizedPlaintextSha256": "85fdb0342291a414daf890d82114b49194aec044f68ffe0a7b952316067c3aac"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "51-51 Blasted Lands",
+      "identitySha256": "a0c0a8887834eb676586446c2834c0572e52dd3ae415d6a457f3a08d08f41cfe",
+      "plaintextSha256": "79bb68eb6795f7b0c9ad342479fdd7a56b84682f4fb236569928bb20ae473181",
+      "normalizedPlaintextSha256": "624d03da2aba672b475480aaea60be4f475ad090674f83605afeb32121aefcad"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "51-52 WPL",
+      "identitySha256": "fb11a4955e8fb08f557c37010eb77e88ec8222880a5b56e7bf7abfa8d28ededd",
+      "plaintextSha256": "a859ee6adaf18746b5ee4b523ff75a73f1e728105652c62bed2812f9cf42b406",
+      "normalizedPlaintextSha256": "494731828fe2efeb79138d4f57d2ffe114b2906015c8ceaf32c26999146b0c35"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "52-52 Felwood",
+      "identitySha256": "3960bf0027e54639e4f2da71cdb4e2ea97a6b78768c30f6074fd09bd05d1b19c",
+      "plaintextSha256": "1d1e6ffd009fdde57beb484efa84feb8c5b505ab079d11c90939126e92e2a63e",
+      "normalizedPlaintextSha256": "0868369eb4db194b8ce95240ff8ac70e5c8eb2f431f01616c9b8efcc5db36038"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "52-53 Feralas",
+      "identitySha256": "3f07c8a1f04b1a2e82b11b354c742c06c06af5d484da97fa2f8f4fceceee4d6a",
+      "plaintextSha256": "220417ba5c0f3c61004e8cf4567b69deb2b3e4e891a204f9c58d465cd15fe669",
+      "normalizedPlaintextSha256": "68653891f99b6962a43707f35b62a365ab7add7d4b3ff954747604c048767ca0"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "53-53 Azshara",
+      "identitySha256": "1cc18426a93954fb20514062958f7b46fc919639ed433b34fb7de95cc63f1540",
+      "plaintextSha256": "d5e1f268e50012a05eb4dc5e002bc0a65ee923127525696e2fcb0c7f8c623499",
+      "normalizedPlaintextSha256": "be534d30eaba13ff91d7af3bea9a9c311f307e49e461049d73d4786bd22e53f5"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "53-54 UnGoro Crater",
+      "identitySha256": "94acb74f39e8bd835c6634d6dea3eb175cb97109f252e4e604872a50a83750ec",
+      "plaintextSha256": "91ab2a6af95617eb8118387be55af081795657570e72795ab6dda4c9cd72ff3b",
+      "normalizedPlaintextSha256": "c55c743a792eafba377f649a8b36232b43149b84c89c7691e5e45500e8554f32"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "54-55 Felwood/Winterspring",
+      "identitySha256": "8bc76b46b220396d540c75a825e2936cdde478505659283f22677bae5c8172af",
+      "plaintextSha256": "b71e231a4222417e06e68557ef9c390fd9420ad4a1bb671ffe10e957cc759e05",
+      "normalizedPlaintextSha256": "d28321b5d84f9d2b8828eaac2db682e256b23963625ece03408744812b1f6a13"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "55-56 Winterspring",
+      "identitySha256": "55e6467b872dcd8422f7265f3358cc0be4e04097bb104ff75c7f6c1dc3fa0f3f",
+      "plaintextSha256": "eed925ca8bff8f5249ba895ca59039704478b854043ff2ae966dbfed5d06c588",
+      "normalizedPlaintextSha256": "7d95a061ada8d91823b0158315bbed4955f3a619492a7b0b8da5ba272cf3718b"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "56-57 Burning Steppes",
+      "identitySha256": "9594959dfa55961cabec25c0d8bff7e6e02bdea54e04ed3a41275c289b08ba23",
+      "plaintextSha256": "b9e8ebb3a56fd131a0692b8d8995f6543c674cf200d393abed85645e2138ea35",
+      "normalizedPlaintextSha256": "de85641f2f7dd252723fdde0cda17b35eecc4a3f8505b658c327e913c6889451"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "57-59 Western/Eastern Plaguelands",
+      "identitySha256": "93d8504a8a0c2232d8784bea12f8c7e71e8a0b71d7f2067b008f164f132e43dd",
+      "plaintextSha256": "0e4572f0bffbf0cff5ffc525db301b3bbea05371092d6642556fc0165ffabc0f",
+      "normalizedPlaintextSha256": "37f171ef5af1b6a71a213abfe96789acd9090a516480926fedeb0b81409d5b47"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "60-60 Mount Hyjal",
+      "identitySha256": "37cf225e3963c08d6842d3b1553417bd9bd61f38f5bb21781e078a8090be2876",
+      "plaintextSha256": "4c4c74deb406a9450ed5dd85922683ef140197fe3463a8fc9966482921e70b53",
+      "normalizedPlaintextSha256": "0c262f85e5f269b0f923c9e289d889fcc99ed244ef4de4c59fb5235c6c5037d4"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "59-59 Winterspring/Silithus part 1",
+      "identitySha256": "7dfdd111eea6ce6c83f01a2334147ad7345e216b446ce75bf9f2cb2d3902457f",
+      "plaintextSha256": "9847d217f1a00c3a6e2f656193e5a06e085104b02f5ad6a4b1131002d24e7eb9",
+      "normalizedPlaintextSha256": "c80fbcc9f8ab9dae3d10817dacc216b70cc91ed66d81339e888ff027f6d08acb"
+    },
+    {
+      "group": "RestedXP Forever Guide (A)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "59-60 Winterspring/Silithus part 2",
+      "identitySha256": "0bfd0ee3f8a3c339de79fd36c6e921a321019f036abaf163f250f34ce6572650",
+      "plaintextSha256": "d66029d8c426a4a12ab7264bb63278b14c6f3f26446ead2cef9974d6988d0561",
+      "normalizedPlaintextSha256": "dc7fbe8721e3d53c21692e7d590c8031d9c2f08bd16aa58d6f211faf64eb28a3"
+    },
+    {
+      "group": "RestedXP Alliance Mage",
+      "subgroup": "",
+      "name": "21-22 Duskwood Mage AoE",
+      "identitySha256": "06c2315334f21da36ef07766afbe75e2bef792a4a734663fe3bbde3180885e65",
+      "plaintextSha256": "65464027cb21bd150489f5e3e84635fd136b83c56be3de755b8ed1a46c101050",
+      "normalizedPlaintextSha256": "0043bcfa932c9c6c83c11ec94c242167d691cc807ba33ed1ea12b2a7b10bd9bf"
+    },
+    {
+      "group": "RestedXP Alliance Mage",
+      "subgroup": "",
+      "name": "22-26 Wetlands Mage AoE",
+      "identitySha256": "3b212c93f3afd7bc1bdf0877fdb61b67103840797f39f4aff5d87735999c0293",
+      "plaintextSha256": "06a121e816703d7b2d1c5d9804c16822ba4b7723b8fe469c90c9b1facdc00935",
+      "normalizedPlaintextSha256": "266d31f77e80acc93ca53bcdfe0d3b951471b79c0603050be8baeb444ddb776a"
+    },
+    {
+      "group": "RestedXP Alliance Mage",
+      "subgroup": "",
+      "name": "26-31 Duskwood Part 2 Mage AoE",
+      "identitySha256": "b3b5b3e5676610d23a96fd949b4bfaf9a7e870c254181629de13d5d976c89cf1",
+      "plaintextSha256": "96881cbf843460ff046eee9c9069009c5cdf90e0cbc73909eed1e6e7fd0c550c",
+      "normalizedPlaintextSha256": "36180b636c9674fe0ffe7e5a2db4b3d5ff2d26b3a0bd8e642ad3d7c91a1ba195"
+    },
+    {
+      "group": "RestedXP Alliance Mage",
+      "subgroup": "",
+      "name": "31-33 Hillsbrad Mage AoE",
+      "identitySha256": "8aa33bb95c851a7a7869936271914bd57efccdbfc4a7f06e14eb7a18bc610bb1",
+      "plaintextSha256": "8550faf90ae635024dda4cc218056a73e5876184c61e24ffa02702c29afa6123",
+      "normalizedPlaintextSha256": "cb007e68af9a5fde8bf840cba316f30f9f81172ee4a50cfd89f24dd36bcb6f21"
+    },
+    {
+      "group": "RestedXP Alliance Mage",
+      "subgroup": "",
+      "name": "33-60 Mage AoE",
+      "identitySha256": "9c12d73eb9ad492b41e1b254e36d770d2056696f95fafd2a166fbdc74e60dd7c",
+      "plaintextSha256": "cdf044541be733fcc2996c0188da50e9bdafabb3f5ed59e0c1701e07000e517b",
+      "normalizedPlaintextSha256": "6aaade79e192e0f203007b62e74d44d21f75a742e32e8754b097f97438bf402f"
+    },
+    {
+      "group": "RestedXP Riverglades (A)",
+      "subgroup": "",
+      "name": "38-40 Riverglades I (Standalone Speedrun)",
+      "identitySha256": "f96690ee4819cc533a891b1b05af5a20ccac7576ca7a78f23b6bc99b5c016e9e",
+      "plaintextSha256": "adee0763d41f0184d460e67d775334f76d497e9ca3577bbf9d8f9a3b82bf8eb8",
+      "normalizedPlaintextSha256": "6d30e9bf34ecaaac9ccd61a4b18e3147e741fbd2f36da4b5f552d870ea96bf34"
+    },
+    {
+      "group": "RestedXP Riverglades (A)",
+      "subgroup": "",
+      "name": "44-45 Riverglades II (Standalone Speedrun)",
+      "identitySha256": "a81815cd7d0a99f1e088c361d5dc687fc455bfde7303421d36a15f4195b89c20",
+      "plaintextSha256": "36a12511f594e6d8b89de118f478206d36d77dffbfe7ae3d29593fc8586df190",
+      "normalizedPlaintextSha256": "f3fc280256e9e0c8d94646795f7a2bafa33f8823f768c283047757d840bc5acd"
+    },
+    {
+      "group": "RestedXP Riverglades (A)",
+      "subgroup": "",
+      "name": "STV QUESTS",
+      "identitySha256": "54563ff2e17dad9da9cd4ba12c4e41a684bc57b74e32941d0b000e185b0fa250",
+      "plaintextSha256": "96d3c1f45ace50d57dcf4ad7007d42ae9f8f8a8ef724b56fbcb29b4adac62aae",
+      "normalizedPlaintextSha256": "678ae819831825d5c3b53db8cc1fdf7ab6806151baa761c843dfb2eaa92729f3"
+    },
+    {
+      "group": "RestedXP Riverglades (A)",
+      "subgroup": "",
+      "name": "Tanaris Quests",
+      "identitySha256": "204cc085d97a2da59d442c2efbd7c6f07112b0f7bc3e31871174eb711d33a9d2",
+      "plaintextSha256": "07e74bac657fcb338c8241abcf20606d2502013500367cdb279233ec74b8c605",
+      "normalizedPlaintextSha256": "d3e42c16dd9dfe56c7098926242adb352972b3c62748ff817b898b0fd51ebd22"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "60-60 Mount Hyjal",
+      "identitySha256": "6f9d76a77b47d7542e12779284c7214ccd6afe997efa514f4c9fd9ac15735d3b",
+      "plaintextSha256": "507bc76c332e91655cd05767e76322b6fefa83eb515e9e727ecae6d4c6b83697",
+      "normalizedPlaintextSha256": "d40ebcaf1e57d9eec3c10954ee757232d7243f30a69f9f78215b1e12139ac608"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 20-30",
+      "name": "21-23 Ashenvale/Stonetalon",
+      "identitySha256": "89a763fa2f004b932aced150b28b0f446444743edfe42d5cb40e0a30b560522b",
+      "plaintextSha256": "37ea40a7c07643c17d48abf5746b391bf7fcd5aa2b9cf7b458608aa3801d44a1",
+      "normalizedPlaintextSha256": "cc643b3104b32b3f53e4903c680b93fe485ef279f870457a9f9d4fcfe2e47080"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 20-30",
+      "name": "23-24 Wetlands",
+      "identitySha256": "95b17daeaae7b411c69bc61c6c4cd94117ed22a7df9c650259ff04476a904101",
+      "plaintextSha256": "8007995dcf95bdfa09cec8b0efee1ddd3cb86533da4c07bf1284e3229dbe5689",
+      "normalizedPlaintextSha256": "eaedd399197b2bc5db6d4b32a98a2a3805ccbf51862f036c4fec32a5ecd9a6af"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 20-30",
+      "name": "24-27 Duskwood/Redridge/Stockades",
+      "identitySha256": "72dc2455d04b43d19a5ec1398519bf1276d1f8c0d01e291d78d2eefd1e9e54d5",
+      "plaintextSha256": "09b38e15f7e0ed3d0ddb2125fccde420348afff8727a5f7b31adc043381b7781",
+      "normalizedPlaintextSha256": "12ca99d577dcabb6092e9e66c09762b28501f6c3757147f2a4e991970e6ab34e"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 20-30",
+      "name": "27-29 Wetlands/Excavation Site",
+      "identitySha256": "94b52f8831c1fdb6c6e452f6d4b9e8aa17902ef9e3634160b5879e8ea2aaab7c",
+      "plaintextSha256": "8c79f9eec1cc4c180961f50c306805aeeb51f18bc9e641a78d2aef9082bc05fe",
+      "normalizedPlaintextSha256": "adaf7fa09b31810c7fb5670a26cdbb3136269fbdba1fd48193bafd96df947b3a"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 20-30",
+      "name": "29-30 Ashenvale",
+      "identitySha256": "cf6b8eb822acdab013dc31aeb5f833526c08002bafaa8cc94a5ea0bbbd8c71ff",
+      "plaintextSha256": "5f0519ae07e9194ca38d8267481411188036a88bfc83857a68202f2d46bacfc3",
+      "normalizedPlaintextSha256": "03cf8b4e37ba9fc3b8ba07be21ce50e0b162371e4917ddb98adbfef70042411b"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "30-32 Duskwood/Gnomeregan",
+      "identitySha256": "7550570a9ff4fb249bd2c80ecae3ac96a367157f5f2b3fd4565dc8bf5a085f70",
+      "plaintextSha256": "2994346e3d7713daae86bd8609a70f54bc8d6626d9fb02fc332ff60b4e20553e",
+      "normalizedPlaintextSha256": "382f39d306d2a340a88cc5ba40c8f127e49e38e6562da8e61814accc9d730868"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "32-33 Hillsbrad/Arathi/Dalaran",
+      "identitySha256": "af5d5c6b6e54733e69341b6e51e6bc8429214beace5dc02b606d696597de26eb",
+      "plaintextSha256": "fedc0530bf075ddeea866e0c6bd4c31603303954ebed70ae55a104bb993cdbd0",
+      "normalizedPlaintextSha256": "f19a5aa5edd8602679cb344785d017e23b3015034d89632f81b8bf7a28363118"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "33-34 Thousand Needles",
+      "identitySha256": "fcfebe118f3dd90175901eaf651396d71ab8b9bdf971eb4a1ac8a2d8f0927d64",
+      "plaintextSha256": "6dc4d350d2747b07c9c17e40f70c4c27ce726c424ab0ed4ccc1599c523575537",
+      "normalizedPlaintextSha256": "9caa95abcb2183e9d2163fd953d34a97b05fa4ed60a6fe69933df60d79c0f020"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "34-35 Stranglethorn Vale I",
+      "identitySha256": "dc71cc2c4a6990a6f7a1eb18119a092923155a9632cdc65e3d46c27b9c4822f7",
+      "plaintextSha256": "909ce441c8d633d24dac5ac8eb171057056df819fa856c88ca01514a8f08ad24",
+      "normalizedPlaintextSha256": "f12eac30fb4c3b9fc249a407469ecfe1651827f6c05e6f17225d651a26171cab"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "35-36 Desolace",
+      "identitySha256": "52685dd4672b8463bcd08bb8b9a9b92e1c1f7b49b48d3fdbe0a28d1335fc4fbb",
+      "plaintextSha256": "1919ce1e31ee7e6da84ffe1a8ab4810a8beeb50cf99731a2a27b15d41f0919c5",
+      "normalizedPlaintextSha256": "5a31574ebf827a6ac79f95ce1262a51b9878feee934084aeedcb348b1da56ecd"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "36-38 Stranglethorn Vale II",
+      "identitySha256": "fa11cf16273a0da1f27dadbba832842bcf166cb6332d31a17a0ef8a75511309a",
+      "plaintextSha256": "251ec54ae9d2873dfad3fa56c715c2129398b7ead767108d21d0e5e49bbd6a6d",
+      "normalizedPlaintextSha256": "271607d6951bf50836947855e6129b561bd3fb7d7333746a1c6dac7a224e6d5f"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "38-39 Swamp of Sorrows",
+      "identitySha256": "5ac30ce0a240041caeef60e1d616eaa131a614eddfdeb32e3dea7c5822b8e4cc",
+      "plaintextSha256": "acac5e56cb8eb905c094b7f4faf47353aefbc7cf976cdc2d0033230236661a7d",
+      "normalizedPlaintextSha256": "11b9acf36b2ecf414929a11ebccc2d2f68df6c0a6aa8f84c53abff0790d0b3da"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "38-40 Riverglades",
+      "identitySha256": "bf7a95e814364f79994014e5c9ac6de8708bb391f923fe8f59b974196b7d54e9",
+      "plaintextSha256": "47afbd86f90c5f185e1443b1a72a1fa378329caec02100441381532f5cee736c",
+      "normalizedPlaintextSha256": "5fabfc5dffd785cd62366c0842372623cdb078fa835d73f893b781d2fc99d038"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "39-40 Alterac/Arathi",
+      "identitySha256": "d8234653ae5bf792d3610d90aa5920d2f8d4e887962feb20e850620b1d369eae",
+      "plaintextSha256": "5907f52b2fc816bd579bd9b3bf17de16151f13ede622a5cee130b68908dbaa34",
+      "normalizedPlaintextSha256": "240d6f9574eaba80f729087892f2c42e93f1c1504623cbf413a2506d515e73cb"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "40-40 Dustwallow Marsh/RFD",
+      "identitySha256": "3399b34c13acdfc6bb4fde48ae58b7fb81a5046a17f89abd87d6278f6b8015f9",
+      "plaintextSha256": "3f7701bbd8d1de5ccaaec024b34afccce223a0aec7f88f94e83b70e773f7b71a",
+      "normalizedPlaintextSha256": "04c8df5424b55697651e5d21ba09bc0eee3662a28d649619a616d4a602a5b7cb"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "40-41 Desolace",
+      "identitySha256": "3d1a53718a12034b0b4212167749d8ee57b62b3fc778fe92e8f27866627ff69a",
+      "plaintextSha256": "610f41e795dfa89653903a02b678660d1a15b66f080b866227cbb215823b7724",
+      "normalizedPlaintextSha256": "48837953149960c463e35fd555052e9a382d43dd0f7bfcb458ed8ee6605d2cf5"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "41-41 Badlands",
+      "identitySha256": "25abc58aa6bdd881388d272c0d0a58be61db77ca1ce19e8e5bca88277b55837f",
+      "plaintextSha256": "e70534d73c931056c92029f3982a2c04bb44cec8d9fa1138122d0a2d1037c64b",
+      "normalizedPlaintextSha256": "5412315c81047711f8702a2215e2bf46a93c7b991a471cc4424caff59891bcc9"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "41-43 STV/Swamp of Sorrows",
+      "identitySha256": "2f3676bf60e329f2f975fc1dbff8c0158c91967038ab779254c04d77a8770f13",
+      "plaintextSha256": "95fd4b9820c1f059dd8b6593febfe76b3bfe6deac6c3ae8405de7792cf3f9840",
+      "normalizedPlaintextSha256": "8041188095f32767ccc8aa01c609fb5c5c11e173db279b5347e702d676eb72e2"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "42-44 Riverglades",
+      "identitySha256": "9a960d53d488851edc905a845e066ac2739ee46715831f3ea1be033e1b2d8e6a",
+      "plaintextSha256": "0237d96d6ad89791fa4063c3d957f06a7b80e3232e96ba779dd9c071ea6528ad",
+      "normalizedPlaintextSha256": "7bbc8f945e89ea261bf12e07e4a71ee30a4bb2a20a6668073afaf6db7ee7d3b2"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "46-46 Uldaman",
+      "identitySha256": "3b184479a6a6cf4518cc8600f6f653def72c5ab0e157205cf7d90f4d77f9cbbc",
+      "plaintextSha256": "78208b7227a5e994ad5502ba4347ced3be68b5f93ef46d717602f2b1679af433",
+      "normalizedPlaintextSha256": "c4db93eaee644beed0370eb3799fae4daa1131a8a48ab93f8d74dd39f0a80c91"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "46-47 Tanaris/Zul'Farrak",
+      "identitySha256": "be51826e99d5e64877d2d0f17deffefb8cb92c187f2c68da4423c5e37d9651d8",
+      "plaintextSha256": "ffeff935ccc33ebfa3882d70987ed0817517eaf63dfabb2f6297f8f9997e4a87",
+      "normalizedPlaintextSha256": "c27701a91d488fa4fb6a2c86409a69a90eb5823de30561e6c77425c44c141464"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "47-48 Feralas",
+      "identitySha256": "c38704d1f74fbc0c514f7954daa3d2679605b69f01a7700413d5a7a6b52dd7eb",
+      "plaintextSha256": "4d12ecac4b96b4c4d0a6a0d3e7cf3c2ccedebdf28f4c711dcd29e2b47e907d10",
+      "normalizedPlaintextSha256": "c51e97c0059793affb45d2225d3abbd0dc38ba7f012e769b447f2a0466ec2b7c"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "48-49 Tanaris/Hinterlands",
+      "identitySha256": "552f1209c90c03c315cb0bba476fde0b4801ae23fb0e5d1362e175648a80f9b6",
+      "plaintextSha256": "c3982e09872c59d166c5f9211c2d1c0d192be488f5f45e743c1d5f14eb8cf5e0",
+      "normalizedPlaintextSha256": "2b387e29c61be76e0aec7307679948eaeead8757129a9383cefac9bfe3a870ab"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "49-50 Tanaris/Un'Goro",
+      "identitySha256": "d94755b2d9dcfbe6043004fd520ebb441b57c1e629c9c7ea3f8c8dade144fd41",
+      "plaintextSha256": "895e4d7a0691d3c47483c55f526bcea0c07be2588d93e37af1c6c84c60b9040c",
+      "normalizedPlaintextSha256": "260e60cebafcd42e6212b5f33a754a5fd9611cbc6cbbbac5af86aa85a2c21d27"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "50-50 Stranglethorn Vale",
+      "identitySha256": "3b9b1276042c9aa76f881f72d47bcdcfe58cfa44e47e17bf348dcc5707060b66",
+      "plaintextSha256": "33632ab97c33a9a83a032864218900ac289c01d0be5e1d271b14c8ca4496011a",
+      "normalizedPlaintextSha256": "58e11cdda2dc9e3ddca4f43d84251fcade686c792f224eed76333fb89ca95d35"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "50-51 Searing Gorge",
+      "identitySha256": "29e8518eb95f6e8b6bd33fcc9d8a55ad562cbc6c27ba6eac82ef802a2ec1bb30",
+      "plaintextSha256": "c3d979436351a0dbf2028d21edf97087ab4b8063e5bbed0aae8a1da82bca7357",
+      "normalizedPlaintextSha256": "34b5c5c5570cb70d0b05010516e7a585a3e862fdf749c5785880533aed831893"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "51-51 Blasted Lands",
+      "identitySha256": "319bcb175a9e41fe324a4f6488662889500037b060856d03cecbf1eaaaa578b8",
+      "plaintextSha256": "47ca4dd1e2c43cbcc509908e03f1f3c490665fd7623f4bbde8478fb2cc47f471",
+      "normalizedPlaintextSha256": "0e733e4d6144a8b16cf7afafe2a3fd06f2a66efdd9e38bc504168bee5058c4c7"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "51-52 WPL",
+      "identitySha256": "04035d17c29715e3267b7b90c86ce3ddc95367be1be8cc62f38b985a203111fd",
+      "plaintextSha256": "056f1b47b5e07c093db5ce38dd8773c411185933ca3f6b24dd6e8ae87e44c585",
+      "normalizedPlaintextSha256": "2176404e458c1e3b9f18bb973d7a92b65b42f471d4660e3ef142515e4d23ff32"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "52-52 Felwood",
+      "identitySha256": "60d6744629815b69a43bd17845bce88681dbdbf39e7073e4e9cdf7d4c82d8d69",
+      "plaintextSha256": "a0d8a7dd2ffd4e2930888da396917e9fadee4839c8c2bc0e8951bc87807a595c",
+      "normalizedPlaintextSha256": "44537d1d33378179486a08add89d80533386cb2395b8c40a33f53f60763e8acc"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "52-53 Feralas/Maraudon",
+      "identitySha256": "18f51ebd826b4d486c5b872881c0654448c0b0b0758d509bf57189abcf880599",
+      "plaintextSha256": "f6180a61b36de8593da1126c840216d43438d1d3a577e88cf62b460a8793b2a2",
+      "normalizedPlaintextSha256": "6025215de870e5a42c21b0143cb3947ab46fc510e0a6b78f838c43805e0876df"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "53-53 Azshara",
+      "identitySha256": "c9b520ba2d723424e14b6a0537a80770a700e4b9a0912449b8ffac708160e1bc",
+      "plaintextSha256": "7e371c93a883bcf07eda02155d8220a469869566af5c6c40eab9f5cf565c313f",
+      "normalizedPlaintextSha256": "988163a7d815beb558cb4921f2314a32978a4be562ac5e94bc2a8056b5c75cec"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "53-54 UnGoro Crater",
+      "identitySha256": "37d10f61d72cb736d0ae97c71d65850f8e7b4df327bccb67019262fffc105d4b",
+      "plaintextSha256": "55f3611d25b4da0d391f9fad34b7abb6860ea6f72aec83850e5a85adf15f3586",
+      "normalizedPlaintextSha256": "73f005a8ed01e48d3d23ff7bc5aaa4d91454f234c9ba8f1e59582057ac36aaa2"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "54-55 Felwood/Winterspring",
+      "identitySha256": "3a20ee8aec955eca228b471f760e48c4d06e8ba5ba4b6c3afe22d6afbf77dc22",
+      "plaintextSha256": "45ea4fe4cd200119ed76ecf42d7ec4cb33fc8826758bd81e3c8c970f77324757",
+      "normalizedPlaintextSha256": "65fb115dca93d6eb68fb77d23be432c72f2f25aabf6ce3fe32229c9512ed4644"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "55-56 Winterspring",
+      "identitySha256": "619e8b6b2f362549af5b6b305e43b992a53c9cfea47896b3fa5cfb54ae580e2d",
+      "plaintextSha256": "9dfcc1d16534233cae928af3f0221590ae8127dab29bdc5069567a18c48fb6f0",
+      "normalizedPlaintextSha256": "08368ec9691d247f1207caa2bb8185927fae3e85da183369d8cdd32d57408fcc"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "56-57 Burning Steppes/Blackrock Depths",
+      "identitySha256": "0919b315c14e97da21ac134984b22dda7f76e96ad18f8f7b54b0b06377b171fa",
+      "plaintextSha256": "378934ccaa416e238062962c487a0006b54ab3717ca2d149a8666eaa8342b351",
+      "normalizedPlaintextSha256": "c63add5d9ef305c07f31f1573c9e4ffc9568311f75f140a03b40cddb98ba5abd"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "57-59 Western/Eastern Plaguelands",
+      "identitySha256": "f6ee47c734719f1eb399ace12c5e6995f9ec8abd270c0093d9322c2434a25357",
+      "plaintextSha256": "2844442b06e530dc4ea961cd9acfb2f643464899a46c34c6b03147c2c8b7671d",
+      "normalizedPlaintextSha256": "50317ceac3414bf75c9f5654f6d640c915a0028f253ad650e2cc380665b3abbf"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "59-59 Winterspring/Silithus part 1",
+      "identitySha256": "129fde3ad55f50b8813b85e4afff7f6d8d6cf16c349cc8f27053a3f379f4e1de",
+      "plaintextSha256": "81790080b57996618a33a904b7f51e2c65658d31e4f2400f6529b4d1831661fb",
+      "normalizedPlaintextSha256": "9991371c1fe569bfb4f8f7457272f3212d6a4cffbec47efc19b2cb4b92d66c3e"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (A)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "59-60 Winterspring/Silithus part 2",
+      "identitySha256": "dc25c9b0dd2852a6713a826856c5c31d8ad3d0d242059d4b33b6c67c6bb4e28e",
+      "plaintextSha256": "71863544eaa2bfece2962b73c8503935c8d6666fcfc43d9c686889fcc61328da",
+      "normalizedPlaintextSha256": "f97c6a94eb8d2c314b80735d8d74d5cb2c1c94cd34c9e893aa291748577e69fd"
+    },
+    {
+      "group": "RestedXP Riverglades (A)",
+      "subgroup": "",
+      "name": "38-40 Riverglades I (Standalone Dungeon)",
+      "identitySha256": "27c3a89bbf93b5f879c823c3bd2c11fce18c5df65ff1e73a263334570752e638",
+      "plaintextSha256": "dad2c20c970a252d552c6108eb2341f7c6518c5fcc34bad596d3aa1f6f8402b5",
+      "normalizedPlaintextSha256": "b57745e76124dbd925b14a982ae67a1b05b6c64451391ab7f91c799c1e17bffe"
+    },
+    {
+      "group": "RestedXP Riverglades (A)",
+      "subgroup": "",
+      "name": "44-45 Riverglades II (Standalone Dungeon)",
+      "identitySha256": "e35fe1eb728be5c4f462eecb58be49faaa7a132516f731769c1df65639e1d3e0",
+      "plaintextSha256": "12046ca15cb172d7d69ee811e84537ecc997b009e650639a3d2de56cba3bdf86",
+      "normalizedPlaintextSha256": "d5efcf147af4b9713d4a0ab7b52737beec591858673a2ede758a575d1dfc2701"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "60-60 Mount Hyjal",
+      "identitySha256": "f820d13969cb20047cbc4a823f6770da41c6746b595241e28c755f57c5add9cf",
+      "plaintextSha256": "514096b0dee60e2debdc3d23adc214ba3403eaa65617ba3a8ebbf0b4a59ac937",
+      "normalizedPlaintextSha256": "26a37c704f06ccc17c09684d70da24c05e68ecc67721aebfc7e15ffd55013e12"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 22-30",
+      "name": "22-24 Hillsbrad",
+      "identitySha256": "63010360c3924a681911f25a349df21b945279716a2443e03467ce87dd9cff62",
+      "plaintextSha256": "62cbdc3c83898e041b232b5d89f3456c7d71c409eaaee66be9bfe15713caa0c8",
+      "normalizedPlaintextSha256": "4fd0f3f65471b156fc83d1bcd7edf241a50e1aca58bfb55ca42c4b68c24ab5e7"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 22-30",
+      "name": "24-26 Southern Barrens/Stonetalon",
+      "identitySha256": "e31dc2e8f703ffb033c3cb52a9b53d6135ede18bc0a1f72d9bfaf7c305eb8cd2",
+      "plaintextSha256": "63d2af959068e7a072bf6bf61f12cc81b010fd1908b152056425c538ab9746d6",
+      "normalizedPlaintextSha256": "d9e5705ba316757b9e6471c278d0c95b34062da7c405c9ff9fc2b85a2bed8e37"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 22-30",
+      "name": "26-28 Ashenvale",
+      "identitySha256": "cc9c82a3502d9f0617270051dbfdd3bedd3eed91b87c434f933b2fc4f542a8eb",
+      "plaintextSha256": "bfda2fcb320ab560dda9fa4d405b48f04c4b9669a01d6f12dd820a37c81fa91b",
+      "normalizedPlaintextSha256": "3a9f08aca785023ccdd110e976f6da0eb4c908911c36bff27f48a1ac973a8897"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 22-30",
+      "name": "28-30 Thousand Needles",
+      "identitySha256": "73e77eb9100d93027c5a49b53950e3822711493a98de328a9e811fea80902c31",
+      "plaintextSha256": "023dcd0659c97b8f178a140489d07b36573d2b930ec0905ae39229f4e3b4c9ab",
+      "normalizedPlaintextSha256": "d2b4c1a52f5f62636f0ff8b70e118b15173160d57adcea4af29ef144ecb771df"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "30-33 Hillsbrad/Arathi",
+      "identitySha256": "15ad2a01ec4b0db370ad196104106911451758ea5379dde6284615b4e2106cce",
+      "plaintextSha256": "c35b93252014b9c7e7dc484edf9522e364820da4b0917dcfd763abdc381fd99d",
+      "normalizedPlaintextSha256": "bd91fb0e45b948fef1793369080aa5d14e7763fe6a602348fa0dfbf3c300e359"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "33-34 Shimmering Flats",
+      "identitySha256": "8af3d5fe257be6f1be4927db4321ff85ae2b54484b8b9aa56fb3d5f738b3a201",
+      "plaintextSha256": "139da96342a546e375f597a4db4b3f1c1a8a601554b72f20f6445a7a36c66f94",
+      "normalizedPlaintextSha256": "e944b836c564c8e087d1eacb68bb5db5c198e64bb9a7631ad2a13ae0b5649605"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "34-35 Desolace",
+      "identitySha256": "cb44728e31b2c853e97925c943c5eb1eb5bf0179141489ce85754a4f51b0fb5a",
+      "plaintextSha256": "9fe8acbaa1f2492ca54dd1fee4155124a97b7b9cae3540a9cf66a8c7331f988d",
+      "normalizedPlaintextSha256": "982c5ae9dfecf001ac480d58d6a6b60c8fdc275eea39f5032a7c1a962d15037d"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "35-37 Northern Stranglethorn",
+      "identitySha256": "e51d30ed02b42ebbd64592d62fc5985828bd47d60b98d11f58f2af1738dbcd83",
+      "plaintextSha256": "ba3cd6cd5723a973c96ddd0effa7b69a75fd81bb04c0fbff38fa33418f84c6fd",
+      "normalizedPlaintextSha256": "12f34a6a1d16980c7fcf66405ed3f514a8cf88aa1d12ab39066d1f220ea3d51c"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "37-380_38-38 Swamp of Sorrows",
+      "identitySha256": "43d077860ead016cd9fa47b66d27ad6d9fc1a9f98dad0d5561c012be16dbc5ea",
+      "plaintextSha256": "2428087959350eb8536d51664a3c7d9eabcf10bf690ac8a2d87139b1a5ee4b5d",
+      "normalizedPlaintextSha256": "ce1d62fc34e4b064e98cc76b19d98808bb7be8e3cb839f6459bc1dbb516195b9"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "38-38 Dustwallow Marsh",
+      "identitySha256": "56b1a506a9ee2000216d240a31bdb959369fb01ec530e0dd16e9c3624ff37972",
+      "plaintextSha256": "28b02bed95b0fb05490cd2c249d713fa93932a000536146d9b0a6c0eea03b495",
+      "normalizedPlaintextSha256": "1a848a86791d46bb6d4f5ef6659e999ea2fe61094a1467f44481ec0f2f8c956b"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "38-39 Alterac/Arathi",
+      "identitySha256": "bdd81751506fb0b6a9fa5fb940934dec12fa74934d3a54699fd5555a4041a801",
+      "plaintextSha256": "086cbe72896a6426971b1b1b5e7e1ad452a2bd799793b0c20ea910822610cbc4",
+      "normalizedPlaintextSha256": "a188b23a34543cdc5f18b48cdec8d31edba4b8fbee201e8e45dcf6bb13036503"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 30-40",
+      "name": "39-40 Badlands",
+      "identitySha256": "8a88ccc36cd674057664af661a67a556036e8f9b7fb1aa8ceb9019ce620bcc87",
+      "plaintextSha256": "e2303e8e6a8cc3a8be32220a1173bd0b454bf39e535f1fd4aec1cab89ee1143e",
+      "normalizedPlaintextSha256": "0a4694a59247df8c5fe9d39a5c6e1a3264a8946c2272adccd5ab78472bdd93ad"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "40-42 Riverglades I",
+      "identitySha256": "9c3c6804d8736467094b489aa2c419fedc1904c4838ae55857265a29db7c1913",
+      "plaintextSha256": "33d1a076bad2ea0ad7927f602f5439ed71c53c350dd9c6a7c934e8e13622a031",
+      "normalizedPlaintextSha256": "32c4bdea275be65cc1220635815d3980f67c713ba9b2160fbfaccc59e9749775"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "42-42 Stranglethorn Vale",
+      "identitySha256": "21633af448d6c96a4f77a597de3ec9445f2c7f18d1ef939dfe3fbc5d0fe16481",
+      "plaintextSha256": "2f8cc8c484d7e8e748079358991ed1aa7c2cb12f77e5f609445bfec3855a8fc9",
+      "normalizedPlaintextSha256": "33435a23298d04970019894e179c7cfedfee18eacd6dd734fd39bd775dc943b4"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "42-43 Tanaris/Dustwallow",
+      "identitySha256": "08297f92db368f6d683fe4572f346c4e20d367b16b20c3a693a9b6e3e42ec46c",
+      "plaintextSha256": "94c05b5b9dd9d05a8dcccb9d3258a7f0189954097a799475797c60e093a3d08c",
+      "normalizedPlaintextSha256": "17c69b941f8fec9d9294fd6400e29c4f29ca469b3797f5534ee2dbd5380835ca"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "43-44 Riverglades II",
+      "identitySha256": "c1e6a110fba830ee9a39ebcdc41d7dda98cf89a11f171493c46b0ef3deaa9bea",
+      "plaintextSha256": "f5924d88bb7441d938a546eab9cd408204c39bc3f4d92f0bcff114ebb98467a5",
+      "normalizedPlaintextSha256": "df814fc2a2a95e6492da25b40da71291a3fffbce1b437df012be82b26a1d8426"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "44-45 Feralas",
+      "identitySha256": "52a459c4c31089ad8e38540e07315c4fc4de5c4b6c4d765cb1c92a6a969953ce",
+      "plaintextSha256": "10590a217662afa0ab71313369fb53d3c6c08d92e13d77f18087508c6b66fad7",
+      "normalizedPlaintextSha256": "d7ccb813017b80b9f8a19d1255e2bba61403f26de39121032fd526f1bd5722a1"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "45-46 Southern Stranglethorn",
+      "identitySha256": "3db16083aad614e7e63180d92db04cd6c9c4e7c90a026b3dbe2a207b4cf9baff",
+      "plaintextSha256": "7e71d222f5126c2809134ad80be38f900b24f9e51e7cf211cec5b115f9d565f8",
+      "normalizedPlaintextSha256": "4091c8139db43eafbd5f483577b84cfd3d5eacea45ad25f40aa0031495b045ec"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "46-48 Tanaris",
+      "identitySha256": "64f88302dedacc673ad91f883864278782ee70ec1c4354a1834764af7b7d9e7f",
+      "plaintextSha256": "a5e354bb7573a5e9fcb735d0105128a865c48924d91720aad19fe9fa32b7c248",
+      "normalizedPlaintextSha256": "30e3a1806dc921cc617cf0010306d14c038fd6ff7aa6b95f432a1f1fea859455"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "48-49 The Hinterlands",
+      "identitySha256": "ad911468fa4821a0706af44d9fadaf011993daf6e3fc538fe27231a676297956",
+      "plaintextSha256": "48b6d134f0d2651752d68eceb8402ad25d0484f8e5bc78ac780363e6a2e9e21a",
+      "normalizedPlaintextSha256": "0ab9652c6bf6c60a9c4eb4c2f1f083c690330a2a1431252eddfb58fe3fcd1a02"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 40-50",
+      "name": "49-50 Feralas/Un'goro",
+      "identitySha256": "8dc2b5a87894834e3b7b0e9ac92a9c9dd8cfae3e05da5346d38e977dc604ba0f",
+      "plaintextSha256": "f836e223f7548d7fd8413360b94f48e4f092af7a13c70aabf6d52fa10b41e6ff",
+      "normalizedPlaintextSha256": "059f80d5dc754387db2e0e846fdf0e989ba58bebfad1cfec3bc4e066d7b12894"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "50-51 Stranglethorn/Blasted Lands",
+      "identitySha256": "65215c3735d4a56a726e1025bd4a6ddcc0dc562a23ef692da67586cb32b62998",
+      "plaintextSha256": "7377a500f08c55d0a1cf7b9599d668d3f4182ff5fb197a566955e1b3af4d6268",
+      "normalizedPlaintextSha256": "2c62c18980588d1cf6d1da5e1b8b69fec0f13837e3b0a1f300251eb88f46fbf1"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "51-52 Searing Gorge/Burning Steppes",
+      "identitySha256": "0f2108b968f94b58f61c17b94533bc1617497d4c440d7dbd4cd0cdaf6b02fc11",
+      "plaintextSha256": "f38147600aabe9730aa10b96ce62b88e2d4fbe5a2e6b813261f346324392bb1b",
+      "normalizedPlaintextSha256": "73fe6c538904d371554ab9cc6e0702f1930a78a002851d86e459141050340818"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "52-53 Azshara",
+      "identitySha256": "28b32f8517389f45a5c452af9ca3e1526f392bbafa1be64e8cd05b5c69fcd1be",
+      "plaintextSha256": "266e4b4636bf809dcb3ce961b10ea8fcd2b2f758e518e0918091860867f5c89c",
+      "normalizedPlaintextSha256": "c4b9f1cef71dcd752a55fe62e1ff468d67c1e128a9d7f4f76afb86c207661f0a"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "53-54 Felwood",
+      "identitySha256": "d14d681a1c15d4430a61a1359df53ee69cb4f1474957a5086bbc9cd3dbc5e1e9",
+      "plaintextSha256": "defd06f4610c9ef012b941383cd1ba1076be8db9fc01f743a99a7eb44fddf988",
+      "normalizedPlaintextSha256": "b6b5c1dd1008bca362347e75d69a7325ad84abd0446dc3a56cc152546a4ae6d0"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "54-55 Un'Goro Crater",
+      "identitySha256": "fbffb53635d53741b21ae884c2f2c6e53c4effb0818a4f26a9ee65221985a969",
+      "plaintextSha256": "18bc1bca4aeef9db4c3f55356d34a74ba2581b0b6c93af7d4cd2928e15f389cd",
+      "normalizedPlaintextSha256": "09b22e6a6167035a31746fc037ef7766ddf96e0a6d3071c80e1a9309248cad87"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "55-56 Felwood/Winterspring",
+      "identitySha256": "ed40fafc135a14cae7b8df0a4f1bbba3be8997ce5f4a84142a5e72467aa923a7",
+      "plaintextSha256": "66bb58ba89c086413236d5fd0353053fa0972cde580a1d4bd8121c059d5ff8d5",
+      "normalizedPlaintextSha256": "6d52ef85a38b0197bd8b62246efd5f3d32125df431bfe37c0af4e12bd34a8715"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "56-58 Western PL/Eastern PL",
+      "identitySha256": "c245c9c4e520d4b32640ce95fbec9fdd08b6f43e7d48706a7228105e1d0d373f",
+      "plaintextSha256": "bd5a4ccd2b8c72b38238f983028ec15e7833fd1a84908d0646ee5fc721b3bb8c",
+      "normalizedPlaintextSha256": "712a8458a3d1f3b97b60d0bd2fbb695f36e77268cc261131dcf46726c08a0856"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "58-59 Winterspring/Silithus I",
+      "identitySha256": "f93d807265a41284d73c15767a6d708d1b0966d4c3578ddc2a594b293257160a",
+      "plaintextSha256": "469e36d85fae7fc320dd22d2ed379fce5fe8101b99ccb443da008cbea65094eb",
+      "normalizedPlaintextSha256": "66fca16b6d479c4768d47d0d9e8002240d4eec8e8895ef35edbe39134879a7de"
+    },
+    {
+      "group": "RestedXP Forever Guide (H)",
+      "subgroup": "Speedrun Guide 50-60",
+      "name": "59-60 Winterspring/Silithus II",
+      "identitySha256": "b3179e10383fba830e5fd85d24547816bd5169a6f1f25b8ddd70df79b4e240b2",
+      "plaintextSha256": "df74ba5c7659db5c0743fff63c25e77d25fc209e69d5b66c9acdb8221e6c5fd0",
+      "normalizedPlaintextSha256": "fb777e5a2cbc05a0d265b29dd626f75da1df225821e7a7ceb107a2ca8863bdfd"
+    },
+    {
+      "group": "RestedXP Riverglades (H)",
+      "subgroup": "",
+      "name": "40-42 Riverglades I",
+      "identitySha256": "08eaffc2ce59ef746114d9a38359c210efe718854ab4084f9ef15e322e084113",
+      "plaintextSha256": "79c5529bf83417ee4910267726ea6f3afbf4ff00d300d8f0dad0230a726892b3",
+      "normalizedPlaintextSha256": "7c4470a244d528abf94b5d0e1eeb6179e9c664b0f1692cd15c7cd467e0e1c0b2"
+    },
+    {
+      "group": "RestedXP Riverglades (H)",
+      "subgroup": "",
+      "name": "43-44 Riverglades II",
+      "identitySha256": "5608b0841727dc4268b57fd1666b27d89d174d4630fef696f048743d105915e6",
+      "plaintextSha256": "ed5fb4985d943b98fb8b5ea6c29d708c8f393d099c435e8644ebaa33c33ec1b0",
+      "normalizedPlaintextSha256": "2b97dc03b45540b0fa6a2029c20903f9e96a072d19301e324b834dd7eab993cb"
+    },
+    {
+      "group": "RestedXP Horde Mage AoE",
+      "subgroup": "",
+      "name": "21-30 Silverpine/Hillsbrad AoE",
+      "identitySha256": "a257eb800c849aa935f2bebc8c6165f7f6ae8c5fbf5df96d0ecb18f69f37c4bf",
+      "plaintextSha256": "76b5dfebb48c2063c68f2cecd38ab76dc2cd9e564886f6c04731314c5e1f46d4",
+      "normalizedPlaintextSha256": "8afe0328844b67b37f59200f7b7ea515d50dcc2ebd34430e9dd976b70b8befaa"
+    },
+    {
+      "group": "RestedXP Horde Mage AoE",
+      "subgroup": "",
+      "name": "30-36 Arathi/Alterac AoE",
+      "identitySha256": "60ade100df21156e2d0f7e23e32a44d4c0be597f3ae58fccdb90577bb11c2636",
+      "plaintextSha256": "e03312909a4857c8f14dfa6b793305e86c17b3b602d1e540d9433c32e0f6f1e6",
+      "normalizedPlaintextSha256": "ddb8dbdc7471da5bfd6a81e5e512382d5c09711acaf05ebc108cb8967dcfe2ed"
+    },
+    {
+      "group": "RestedXP Horde Mage AoE",
+      "subgroup": "",
+      "name": "36-60 Mage AoE",
+      "identitySha256": "ee0ee5eb0dfa1869598901e0b1f7ac7b8ee08c1264aae0eb6b3d0349e33fbb9b",
+      "plaintextSha256": "c99c82604229e4c6b25127b45d0acd845fe8235131f2c063d3b1dc3f5b51415c",
+      "normalizedPlaintextSha256": "065b52145388e1a006afd76484f4d3cda0e36258cedd9a79dee9c28c7e8ac55e"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "60-60 Mount Hyjal",
+      "identitySha256": "8492eed7315fdf44fcac11da7cfa2acb17aebcfcd941b109510ca5e5f5bfa300",
+      "plaintextSha256": "cf24bccaff3ae7aab581ed38025c871c05afe670382d31c8d8162b978d1bba59",
+      "normalizedPlaintextSha256": "a38ff14bfc8c67d45cde911b8b008d3d8b79fd78c17848a12be0a1efc2a93a3a"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 22-30",
+      "name": "22-24 Hillsbrad",
+      "identitySha256": "350bc7aee591f20b96b7464cf529451e4a23e8c4c56d0c7893573390fa96f1bf",
+      "plaintextSha256": "9e0c4f8e7824dc0ee063c50d0361a28dbf113a96587f97c00b65050b8edda8a0",
+      "normalizedPlaintextSha256": "41e35e49f1e35addcaf475c274381d035eb5e912be79b2c2822eaa9eddc59b2b"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 22-30",
+      "name": "24-25 Shadowfang Keep",
+      "identitySha256": "5ce9c0e1c2b1ba573fa2f464b1caeac58167ad04f120f036dc828e051f2e0db8",
+      "plaintextSha256": "e93f58c320583a517f9a4048c0a468a840e365183c08c7864457ad78da5d5e4a",
+      "normalizedPlaintextSha256": "489f49741a9122305020825646e5422bd3a3ea4e6e84990289c66ab25d015cc3"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 22-30",
+      "name": "25-26 Southern Barrens",
+      "identitySha256": "4ea4a96aa9fdb593cf233aeac01030453d27ca421ff4eefc03e0953fb58575ea",
+      "plaintextSha256": "fb33c0d8a22b340fd2060253202564d6ce1cbd42d7f32e6e8da08d6902ddfc6b",
+      "normalizedPlaintextSha256": "41e7cb4840c0ca663ec7a12efb8ceaccad1fa319da177c901c0345a6113cd745"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 22-30",
+      "name": "26-28 Ashenvale",
+      "identitySha256": "d0c7ba2bbab17440d6b9bd69420e7b842a42b9319d149d5cbfd10d34765ae5ee",
+      "plaintextSha256": "572003da46413066f0bd62ac2c38c93aac8e0be2dd2cf4e941e6a00acc6cebb5",
+      "normalizedPlaintextSha256": "62cda99a7f9a2ebbb16ce746f01c56f69c7e1fd3ab4395975a4a6b244a20ad56"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 22-30",
+      "name": "28-29 Blackfathom Deeps",
+      "identitySha256": "4a728e3e4c48bf6d6360361dbbc1782b0d99c5d43d3ff79ae410e66091b4d816",
+      "plaintextSha256": "f1cd45bb5c16235259b9da0c4cf303176f5f6d6e113c0e1d1eac14b9cf42b7aa",
+      "normalizedPlaintextSha256": "34366c31154bebb75dc92c799df01f632ffb7a2bbf2afccd6be9994708929a04"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 22-30",
+      "name": "29-30 Thousand Needles",
+      "identitySha256": "60d3df5b2f75d856e874ec5b7be9dc24fab939840b965e4add30cee51f4c6a08",
+      "plaintextSha256": "45137a5c50092e9f90cfc392d0e4bce37a1da1543b752d762cd6be17c8d93e0f",
+      "normalizedPlaintextSha256": "bd1cb1f4403b04c7326b40b2a54c1f47b320c1bf27ccd0e392fc1609f739306a"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "30-31 Razorfen Kraul",
+      "identitySha256": "a379a3a53ed731acefb1d051c604c9af52647a68f0342441115f96456939695a",
+      "plaintextSha256": "593d8484ee1178992c9e64e8f9789c007f14ea3fde466f5a6c2712c910a3cbcf",
+      "normalizedPlaintextSha256": "c9f0be1adc01dc59c133252030e28d53698b158022fa0f66ad47e615139577f1"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "31-31 Gnomeregan",
+      "identitySha256": "cd9ac40d2e8811eb2da5c026ccb42f0640a4b7d77243a5c36b27794d7f5c8db0",
+      "plaintextSha256": "99aef01945830835c7740cf3f00f466b1e84e78e291bb906b5ef44bec2117d77",
+      "normalizedPlaintextSha256": "73847830b1ef51cf53d9c18325084a7240e82b9ef94bd0e17b5ae6f423bef28a"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "31-32 Hillsbrad/Arathi",
+      "identitySha256": "61f6983db6d042268a4a2fc9b612b4985a6e80723efcb3e0892f68742b6286de",
+      "plaintextSha256": "d9a952663e97d86c910851a742f446985a14d6973ff97238227168bdef076449",
+      "normalizedPlaintextSha256": "be6c1b569b2164fba8aab7582f47d366bb714d7b01cf62b51a5e6222842a737d"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "32-33 Excavation Site: Wetlands",
+      "identitySha256": "75da1bf8606c833ac9cf1f641f0733f4bf74bd7f4fb73007e5305cb22ea23870",
+      "plaintextSha256": "424da3e764c66f6032e32da9560814a99d2de790bf173d45a8d4096065b03dec",
+      "normalizedPlaintextSha256": "3889db9bdb9c4bc24b3613202e375631504ff4aff805a779bd0f488a7a4b3954"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "33-34 City of Dalaran",
+      "identitySha256": "b078ee950be369ee1b8aeafe65c3ccee6a40f1565b93d3249bbe6892060f6a98",
+      "plaintextSha256": "c40895cb88622983ed21db57af110ee16b81a88c7731965425268d4ce3907a46",
+      "normalizedPlaintextSha256": "124828fa394af622dd8c6caa1b7461d61e8a02c0e8ae5ea8ba65f36513a33a52"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "34-35 Shimmering Flats",
+      "identitySha256": "e01af5ae17e678c1c0a79c6b2865adf77f0e351fda64d20077031fedd642ef69",
+      "plaintextSha256": "1727f15eeb0f329d4e13f5dc4e6558062d0f0f6d9f0b031493d2d363142183fa",
+      "normalizedPlaintextSha256": "b3b2e06f23f763290256487246c8bee18ed6a57639af012bc9fa651fb572d4b9"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "35-37 Northern Stranglethorn",
+      "identitySha256": "81c53809f987eb38fb975901d9049447acc52db41a82e0d58d47532144008ce2",
+      "plaintextSha256": "620b5b4241017640ec4c1145c18748a10266ee060797d1852f37bed195361bd5",
+      "normalizedPlaintextSha256": "6765d14b3a5b51043aa8e70481cf6cafdbc6052284e7679fce713827cfdee48b"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "37-380_38-38 Swamp of Sorrows",
+      "identitySha256": "96b7f671587a84ca9a90cf13b0f60f8d764a0d3c1afeef4e1816c4650e337fc8",
+      "plaintextSha256": "179819f96cfb9e69803b80b674cb16a73b3f3f22c60bf962269f4a891183d855",
+      "normalizedPlaintextSha256": "317c1b567095e02ffd78315448189c23f557eb99d25b7796db66c5cd4c6339db"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "38-38 Dustwallow Marsh",
+      "identitySha256": "519ed2c39aa4d4a80cce72961ee448320169bfe1450a36be75aaac9e831652b2",
+      "plaintextSha256": "624966a3f67603901d7ba430ecebfd3e6f6c09b0380b4f8b88685f23fc6d53f4",
+      "normalizedPlaintextSha256": "4718433cb5fe65b179387113c1c1ad39bdbf9f0b03e6e28527d6faa0e8c52149"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "38-39 Razorfen Downs",
+      "identitySha256": "1de461bec293f319ed5caa035aec5ffc570664d975f696b23e267d254f4581ce",
+      "plaintextSha256": "c41ac56fa7870c3ce24a5e6582e78b951c1e119a6605eceaeb57e2dce45883d8",
+      "normalizedPlaintextSha256": "d4e3450f0f28d73caf3614480e71ca36a257f469a9710bc32338c393f2b7ea05"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "39-39 Alterac/Arathi",
+      "identitySha256": "790a9d28dff8ed680eb3dfb444c1e76105ab564c8f52780887e71603b652ad87",
+      "plaintextSha256": "af66fcea90277ba8f20ab633144d3a787561c9f456306c1784dbd01040552db5",
+      "normalizedPlaintextSha256": "7806a9fc9c76a7b2aae0799e0548618f23f175d162b8a2a50de51ca32d4e0388"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 30-40",
+      "name": "39-40 Badlands",
+      "identitySha256": "f2c970f16840e9093ad9f733720b6ebdbef28d70809a810f53fb52c13a4ff168",
+      "plaintextSha256": "866aeedde4800271bdd961b4c1b88120dc13e6c76b5f5e99c6deb4ea68c7ab36",
+      "normalizedPlaintextSha256": "64033671bc6881c866110b6d6f118cd09ea3eef66c73d568b4da7385ba53d9f6"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "40-42 Riverglades I",
+      "identitySha256": "95f1ecff92f4f652efa6c16a93cc5fc06f66eb266f36f57c186a810ac5ea7a6d",
+      "plaintextSha256": "c44102c67f109e3767214f78f78169f23e18ba56e626771a70f8eb448f976d0a",
+      "normalizedPlaintextSha256": "3e5e6aa9c8407adcbf4e46ec675268c9e886ebd8bb9e2bc617b30085705cbed5"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "42-42 Stranglethorn Vale",
+      "identitySha256": "c5f27f1f19b5a79be15ae879f4e0e344a8f93b96c4d6d1997e5c658487c7749c",
+      "plaintextSha256": "e7d3b38b5168f99082d04e7a75ed7391498428e2d8e7dc747be4edbad7ebb61c",
+      "normalizedPlaintextSha256": "ae0d0f920732d1c30d7fc46855f9e98df4183fb753aa7f415548a5b7f9a2ce38"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "42-43 Tanaris/Dustwallow",
+      "identitySha256": "b4bf495d7cfc8c64d6bc65e1c4dfb6cc70ca55305c5eb80103d077542a830563",
+      "plaintextSha256": "e77d3757f7eebed0288f943dc7d0f1e6547c97c34786d446be264ac591acd869",
+      "normalizedPlaintextSha256": "2f5a72a47aca63834317f23e5145d0905131524db950dc1c26fa53b9ecf86130"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "43-44 Riverglades II",
+      "identitySha256": "0cacf439e1fb9bf07a3becb540d2bd5b12ba9ad5c906abd02bfcce21df2b5479",
+      "plaintextSha256": "d910985c2bd56edaa79323204d80bca2dd10a3b8ece9c3a3437f2eec247f0d2b",
+      "normalizedPlaintextSha256": "1e0e80c7661619bc7d75ca0d9e28eaaa2a7d712803485fa6eb9c1b960d734cdc"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "44-45 Feralas",
+      "identitySha256": "9fd2d78db99274245ca266306dcd6f78a776624d634c0fcfb54630e50d9ca76a",
+      "plaintextSha256": "8e57679db33da63ee4c8cd9fbf19ddeb14544f288c7fb6304e0b82bf1b0e14e1",
+      "normalizedPlaintextSha256": "991a396ecccd30ef4cc87027726be855c1de2391dcd461146fd0b717e09e5ceb"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "45-46 Southern Stranglethorn",
+      "identitySha256": "f154c438b2e46ad1c16e119567c1c216b379981adfa1debd03e24bc67650389d",
+      "plaintextSha256": "4ed89916be1506efa5c430796f72025fbcb3ce9f586d9fc594d415dd8ffda231",
+      "normalizedPlaintextSha256": "f0341e170111305a43b7c838e94438c935ded4078b9489651e7846c9a9488aea"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "46-48 Tanaris",
+      "identitySha256": "625a0f32e6e81082804ecca509feab6f2b541cd419d7767c5b69b9dfbcc3cb10",
+      "plaintextSha256": "55a75e1bae246a91d49bf8cda19823f9316ccfcfc6ec03a03154c94f163e07da",
+      "normalizedPlaintextSha256": "83231f08fac97e2bb9d8dc0fef08fc893f0d5cc1e3c4faf799c7e19a0f84f77c"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "48-48 Zul'Farrak",
+      "identitySha256": "85bd5a4eb92626abc472926b9b390f9fc6d6fc40b693ff23782dd0f6c30b3341",
+      "plaintextSha256": "a1bb3a6316870e5ea895833b19e12165f6e5c6a002c776d1f378a349d5e8a750",
+      "normalizedPlaintextSha256": "54af9db77e3c044105bf1af287b513e908d0e91b09a66ffe8da7adf24beb6edd"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "48-49 The Hinterlands",
+      "identitySha256": "32c8de3bd4caf56c4f4468dabfada9b030a7b161155cc505fcb1b04c7a833331",
+      "plaintextSha256": "7fb5a724365ef9a68cdf3b5ef47d2d7b1c7e7023bb155e52a4c986a08fd622db",
+      "normalizedPlaintextSha256": "a66e80f1773d71144d71d4a74377a0717ec22bc8881c983d68766bf7d6dc1927"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "49-50 Maraudon",
+      "identitySha256": "784330bdd05b310261464d0ab4a368432029a83f181976ed73e5da93caf596d9",
+      "plaintextSha256": "705ac82b190cccce0fc81990426a2253a84e62a95cc0110157f809047e29b5f9",
+      "normalizedPlaintextSha256": "5833c3d289f91bbd3306c90267575ffb2c7e957194f80646439bbe509fd23a43"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 40-50",
+      "name": "50-50 Feralas/Un'goro",
+      "identitySha256": "118ee69593e81f9f83fed0de239493d7e26a33b668ef8f7b57985b9693d4426a",
+      "plaintextSha256": "f83584ebb3ec79fe5e878f25d6d73b7744a0a8b0c9668b94cba41d23c7f9b599",
+      "normalizedPlaintextSha256": "53d0f4ca73f8c168af6a9abc27e78358adae147358343f90e0287ea2d9a82b1d"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "50-51 Stranglethorn/Blasted Lands",
+      "identitySha256": "1bf8d22ae1fcce19078022112a1001b870c6c3e4fc95b61dba2fb6b1af507de7",
+      "plaintextSha256": "bdbd0dcfa9170d0e6ba45dd8d32ff2acce77b13d729ec331893913aacdd92397",
+      "normalizedPlaintextSha256": "679589f0a61cbefb43fcd43769feaa9da86eb4347edbdcb56eae2cebb1e1d2d7"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "51-52 Searing Gorge/Burning Steppes",
+      "identitySha256": "32c3e7e146d7dbb384e7fdcc16e665d3a09899651062eac225dc00b316b5d311",
+      "plaintextSha256": "0235a4a74ecbff502da4be79b482d297efc51480674a7c9e9324109194b652de",
+      "normalizedPlaintextSha256": "7b710cd3545c57f9064a0d55b3cad8b1b38878c970c177003295a5edf2eaaf63"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "52-53 Azshara",
+      "identitySha256": "3930438f368295ef390a314f48f7512917b21a32001b7c04a265fd96a9a714da",
+      "plaintextSha256": "95e1f2ec00b6b9955dd2d84c3ec5a742d2d61faba8501619d74980373e4bacae",
+      "normalizedPlaintextSha256": "5eacf5f9086036751e8d6a9bc3569fbdc9f999f3a38b8f4dfc04f4864b718dc0"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "53-54 Felwood",
+      "identitySha256": "51778a416b009a8a712b214d8b5e7db3fbaafb2a168a54cb20c728e0dedaf093",
+      "plaintextSha256": "d2b250e3d314f7e7f354ce9a960deba3e090cadc2a4abb54e5121200026cc5be",
+      "normalizedPlaintextSha256": "737d30c927fab47dd7f98fb7b761cbd1fedce841557c71918fc84edb074c6ea3"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "54-55 Un'Goro Crater",
+      "identitySha256": "7195c35defd2a63ea7dd6f4523f1347bbcb77ecfe6e83e911e498e6ae90aa820",
+      "plaintextSha256": "9887a1c437070c1742665518029e05670ec50be1ea8ea8296920e57793be743c",
+      "normalizedPlaintextSha256": "3d40875ba17fcfaffd00c642e091938f82da0802604b1e6170af1a3109326216"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "55-56 Felwood/Winterspring",
+      "identitySha256": "ee409ba71d2a6b5b84739c7125b1e807056d53364e0dfe8755e3d76bc80cbb60",
+      "plaintextSha256": "4e7b1eb301b8d8b4defcc51543eeca136de72a049e1a9dd016e984fa5067a2ad",
+      "normalizedPlaintextSha256": "88374362305edce815590e6e80e68d534de08a9c4568b697cba5bb7ca8df6945"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "56-57 Blackrock Depths",
+      "identitySha256": "62f237549eb75a000ab70a173ccdb55c6a22f4cd8c43a8d9cb8e2e484ba9abe1",
+      "plaintextSha256": "04e6f8c0613fe442ca79a7786ee510e6c5f32db1d8e0c716927ce5a56473b2cf",
+      "normalizedPlaintextSha256": "f8026082e72737096821e4cd20933be215b363def3f6f2eb53f198550c7d58ee"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "57-59 Western PL/Eastern PL",
+      "identitySha256": "5424084c69ba5b7e9616dccb030726ec753e4215844e89bdfc437396da4639fd",
+      "plaintextSha256": "a24f8429ec4651682ecc80194d9f9f39b474f996559de6dd5ca50e7e4365bc92",
+      "normalizedPlaintextSha256": "648e9eacbf45c0b56c63e4eca86aeb8fcc4d96aea478f1608fd187d2b818b802"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "59-59 Winterspring/Silithus I",
+      "identitySha256": "b1f7bf98fcd2c9f672cc8fe2c2eb8d0c340542aa1d1f56589c6b9af5f8e51519",
+      "plaintextSha256": "5ff5c42319157935c8ae02e62398051791808f33ae04d6b308ec350a6e1ae2ba",
+      "normalizedPlaintextSha256": "af95ba02c9128c82039d077ab121c81f7bc8eef86d01664033ea70a84a092cdf"
+    },
+    {
+      "group": "RestedXP Forever Dungeon Guide (H)",
+      "subgroup": "Dungeon Guide 50-60",
+      "name": "59-60 Winterspring/Silithus II",
+      "identitySha256": "6f69993fd49fc3ca484212546056c373146e2867222f01b252d8f37b591f6a87",
+      "plaintextSha256": "b035643c34fc7f0a61c7ee6d355bc38e059a8b2194083117c93bccd5256224ad",
+      "normalizedPlaintextSha256": "5db3de85dac12f37beae371876cc4252fa2161b847fb9d75d990cf249cc0a993"
+    }
+  ]
+}
