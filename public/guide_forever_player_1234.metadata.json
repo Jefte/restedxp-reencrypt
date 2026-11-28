@@ -3,23 +3,25 @@
   "provenance": "public-encrypted-export-rekeyed",
   "upstreamRepository": "Inariaa/rxp_decrypter",
   "upstreamPath": "guide.txt",
-  "upstreamCommit": "e2b47fad49d0fccd58bdb7b5b2c0e53d5ef9f797",
-  "upstreamCommittedAt": "2026-11-26T17:08:48Z",
-  "upstreamRawUrl": "https://raw.githubusercontent.com/Inariaa/rxp_decrypter/e2b47fad49d0fccd58bdb7b5b2c0e53d5ef9f797/guide.txt",
-  "upstreamEncryptedSha256": "37e0ba65175a1589d3539a9d2fe56779f6c25fe8baba5904d0a6102939d401f9",
+  "upstreamCommit": "5fc851b240b375814375f88097c6a73525fc99f6",
+  "upstreamCommittedAt": "2026-11-27T23:08:35Z",
+  "upstreamRawUrl": "https://raw.githubusercontent.com/Inariaa/rxp_decrypter/5fc851b240b375814375f88097c6a73525fc99f6/guide.txt",
+  "upstreamEncryptedSha256": "46d8afe959377598a936a50d42d0e89db3d3735097c323b28d00baf6846f02a7",
   "sourceBattleTag": "haha#6767",
   "targetBattleTag": "player#1234",
   "envelopeVersion": 40000,
   "recordCount": 221,
-  "plaintextSha256": "dfeff3a47c8858327716b0b16b6291daa3f717f1f7de1c8f7af0a24a24ea78a6",
-  "encryptedSha256": "6f111a771cbddd2c93be547911e85abd77aa5c0447fe4c82bd68106d029b383a",
+  "plaintextSha256": "016f2b6ad87a8fac62be31809cbd23a18ce571958b7cfd4161267cfc190e6f21",
+  "encryptedSha256": "f1e4958a3fc24523256ef2439a389548cfa08fe2aa135fc2f7e35225d8c96ad3",
   "semanticDiff": {
     "added": 0,
     "removed": 0,
-    "changed": 0,
+    "changed": 1,
     "addedIdentities": [],
     "removedIdentities": [],
-    "changedIdentities": []
+    "changedIdentities": [
+      "RestedXP Forever Dungeon Guide (H) / Dungeon Guide 50-60 / 59-60 Winterspring/Silithus II"
+    ]
   },
   "records": [
     {
@@ -1787,8 +1789,8 @@
       "subgroup": "Dungeon Guide 50-60",
       "name": "59-60 Winterspring/Silithus II",
       "identitySha256": "6f69993fd49fc3ca484212546056c373146e2867222f01b252d8f37b591f6a87",
-      "plaintextSha256": "b035643c34fc7f0a61c7ee6d355bc38e059a8b2194083117c93bccd5256224ad",
-      "normalizedPlaintextSha256": "5db3de85dac12f37beae371876cc4252fa2161b847fb9d75d990cf249cc0a993"
+      "plaintextSha256": "4fbc577db28a13720603ab5f30cddfa5303a2708649d352572e50f2e842c2e54",
+      "normalizedPlaintextSha256": "d649bf06dd6eab9ac5b7f76eeaeb4af07a385394faf8cab0072bbd8119797403"
     }
   ]
 }
